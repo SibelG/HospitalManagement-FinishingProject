@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.CallDoctorActivity">
+
+    <!--<androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="8dp"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:id="@+id/imageMap"
+                    android:scaleType="fitXY"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textDate"
+                        android:text="Date"
+                        android:fontFamily="@font/brandomi_random"
+                        android:textStyle="italic"
+                        android:textSize="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textAppointmentNum"
+                        android:text="abshd"
+                        android:fontFamily="@font/brandomi_random"
+                        android:textStyle="italic"
+                        android:textSize="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textName"
+                        android:text="Name"
+                        android:fontFamily="@font/brandomi_random"
+                        android:textStyle="italic"
+                        android:textSize="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textAddress"
+                        android:text="Address"
+                        android:fontFamily="@font/brandomi_random"
+                        android:textStyle="italic"
+                        android:textSize="16dp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.rey.material.widget.Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Show trip"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/btnTrip"/>
+
+                <com.rey.material.widget.Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Call"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/btnCall"
+                    android:icon="@drawable/ic_baseline_phone_24"/>
+                <com.rey.material.widget.Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:icon="@drawable/ic_baseline_done_24"
+                    android:id="@+id/btnDone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>
