@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:iconTint="@color/white"
+            android:title="home" />
+        <item
+            android:id="@+id/doctors"
+            android:iconTint="@color/white"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/sections"
+            android:iconTint="@color/white"
+            android:title="Sections" />
 
+    </group>
 </menu>

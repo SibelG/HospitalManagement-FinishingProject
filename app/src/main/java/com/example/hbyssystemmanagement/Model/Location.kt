@@ -1,4 +1,8 @@
 package com.example.hbyssystemmanagement.Model
 
-class Location {
+
+
+class Location{
+    var lat =""
+    var lng =""
 }

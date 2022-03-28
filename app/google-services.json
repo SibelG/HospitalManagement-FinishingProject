@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "677436375215",
+    "firebase_url": "https://hbyssystem-default-rtdb.firebaseio.com",
+    "project_id": "hbyssystem",
+    "storage_bucket": "hbyssystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677436375215:android:315af516563163a5cbd45a",
+        "android_client_info": {
+          "package_name": "com.example.hbyssystemmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677436375215-70ogttg7ghd1jnjoi70tpo7enkld01oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hbyssystemmanagement",
+            "certificate_hash": "fe480326ad4ae8f12f07cf230ef10b6b4506ceec"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA6dDPupuQUTfApzo5q4xZXqi-OcY6CHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677436375215-lqrfvijn2452goi1jjo1t0uvcganq7g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

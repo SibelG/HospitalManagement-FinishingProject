@@ -8,14 +8,70 @@
     android:layout_margin="16dp">
 
 
+
     <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/placesFragment"
-        android:name="com.google.android.libraries.places.widget.AutocompleteFragment"/>
+        android:text="Name"
+        android:textColor="@color/black" />
 
-    <com.rengwuxian.materialedittext.MaterialEditText
-        android:id="@+id/OrderAddress"
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_blue_600"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:hint="Phone"
+        android:inputType="textMultiLine|phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_blue_600"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -26,27 +82,13 @@
         android:layout_weight="1"
         android:fontFamily="sans-serif"
         android:hint="Address"
-        android:hintTextColor="#A1887F"
         android:inputType="textMultiLine"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_blue_600"
+        android:textSize="16dp"
         android:textStyle="normal"
-        tools:ignore="TextContrastCheck" />
-
-    <com.rengwuxian.materialedittext.MaterialEditText
-        android:id="@+id/OrderComment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="5dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:fontFamily="sans-serif"
-        android:hint="Comment"
-        android:inputType="textMultiLine"
-        android:textSize="20sp"
-        android:textStyle="normal" />
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
     <RadioGroup

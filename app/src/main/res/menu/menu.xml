@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_e_Pulse"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="e-Pulse" />
+        <item
+            android:id="@+id/nav_Visited"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="Most near hospital" />
+        <item
+            android:id="@+id/nav_Visited_list"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="Visited Places" />
+
+        <item
+            android:id="@+id/nav_whats_wrong"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="The Nearest Hospital" />
+        <item
+            android:id="@+id/nav_Appointment"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="Appointment Information" />
+        <item
+            android:id="@+id/emergence"
+            android:icon="@drawable/ic_baseline_menu_24"
+            android:iconTint="@color/white"
+            android:title="Emergence" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:iconTint="@color/white"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/nav_section"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:iconTint="@color/white"
+            android:title="Sections" />
+
+        <item
+            android:id="@+id/changePass"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:title="Change Password"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_home_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:iconTint="@color/white"
+            android:title="Settings" />
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:iconTint="@color/white"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:iconTint="@color/white"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/aboutapp"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:iconTint="@color/white"
+            android:title="About Us" />
+    </group>
+
+
+</menu>

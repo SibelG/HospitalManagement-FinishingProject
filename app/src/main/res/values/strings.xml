@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hbys</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="comment"><b>Comment</b></string>
+    <string name="default_web_client_id" translatable="false">677436375215-mb85kaqs6av0i82o12ok4nmgljictm33.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_call_doctor">CallDoctorActivity</string>
+    <string name="title_activity_nearest_hospital">NearestHospitalActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="male">Male</string>
+    <string name="drawer_open">Open Drawer Listener</string>
+    <string name="drawer_close">Close Drawer Listener</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="_00">00</string>
+    <string name="calculate_your_bmi">Calculate your BMI</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="calculate_bmi_again">Calculate BMI Again</string>
+    <string name="title_activity_view_directions">ViewDirections</string>
+</resources>
