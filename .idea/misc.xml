@@ -4,43 +4,106 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/app_bar_layout.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/backgraund.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/background.xml" value="0.2546875" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/button_back.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/buttonback.xml" value="0.1" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_home_work_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_perm_contact_calendar_24.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_person_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/linearborder.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/okbutton.xml" value="0.1" />
-        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_appointment.xml" value="0.1375" />
-        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_content.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/tab.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_appointment.xml" value="0.536" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_appointment_cart.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_appointment_search.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_appointment_status.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_call_doctor.xml" value="0.203125" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_call_doctor2.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_content.xml" value="0.2" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctor.xml" value="0.13385416666666666" />
-        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctor_detail.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctor_detail.xml" value="0.25697211155378485" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctor_list.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctors_list.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_epulse.xml" value="0.13697916666666668" />
-        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_home.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_epulse.xml" value="0.25" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_favourite.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_favourite2.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_favourite_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_favourites.xml" value="0.1625" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_feedback.xml" value="0.1671875" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_nav_headerhome.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_nearest_hospital.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_reset_password.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_search.xml" value="0.13854166666666667" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_search_near_place.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_section_list.xml" value="0.2" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_send_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_show_comment.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_sign_in.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_the_nearest_hospital.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_view_appointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_view_appointment2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_view_directions.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_view_place.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_visited_list.xml" value="0.1515625" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_visited_places.xml" value="0.2" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/address_layout.xml" value="0.4" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/appointment_layout.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/appointment_view_item.xml" value="0.264" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/blank_fragment.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/blank_fragment2.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/cart_recycler_item_row.xml" value="0.264" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/comment_layout_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/date_fragment.xml" value="0.13958333333333334" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/doctor_item.xml" value="0.264" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fav_doctor_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fav_product_item.xml" value="0.264" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/favourite_row.xml" value="0.19402985074626866" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_about.xml" value="0.2328125" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_appointment.xml" value="0.2328125" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_blank.xml" value="0.165625" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_date.xml" value="0.2" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_details.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_doctor_blank.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_fullscreen.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_senses.xml" value="0.2" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/fragment_text.xml" value="0.152" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/h.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/horizontal_bar_content.xml" value="0.176" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/message_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/my_appointment_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/recycler_row.xml" value="0.1515625" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/section_item.xml" value="0.264" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/secure_code_activity.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/appointment_menu.xml" value="0.146875" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/bottom_nav.xml" value="0.176" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/home.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/main_menu.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/search_menu.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>

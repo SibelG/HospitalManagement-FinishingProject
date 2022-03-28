@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hbyssystemmanagement">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HbysSystemManagement">
+        <activity
+            android:name=".View.FavouriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ViewPlace"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".View.ViewDirections"
+            android:exported="true"
+            android:label="@string/title_activity_view_directions" />
+        <activity
+            android:name=".View.SearchNearPlace"
+            android:exported="true" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.VisitedListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.VisitedPlacesActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".View.NearestHospitalActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nearest_hospital" />
+        <activity
+            android:name=".View.SendMessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.AboutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.ViewAppointmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.ShowCommentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DoctorDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DoctorListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.SectionList"
+            android:exported="true" />
+
+        <activity
+            android:name=".View.AppointmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.ResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Service.MyFirebaseService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Service.FirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".View.HomeActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

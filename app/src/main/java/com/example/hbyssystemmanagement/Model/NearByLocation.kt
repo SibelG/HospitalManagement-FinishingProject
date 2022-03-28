@@ -1,4 +1,9 @@
 package com.example.hbyssystemmanagement.Model
 
-class NearbyLocation {
+
+class NearByLocation {
+
+    var lat: Double? = null
+
+    var lng: Double? = null
 }

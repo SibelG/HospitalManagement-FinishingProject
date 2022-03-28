@@ -1,4 +1,9 @@
 package com.example.hbyssystemmanagement.Model
 
-class Appointment {
+
+
+
+data class Appointment(var date:String?=null, var time:String?=null ,
+                       var userID:String?=null,var doctor_ID:String?=null) {
+
 }

@@ -6,9 +6,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object GoogleRetrofitClient {
     private var retrofit: Retrofit? = null
-    var PLACE_API_BASE_URL = "https://maps.googleapis.com/maps/"
 
-    fun getApiService(): Retrofit {
+
+    fun getApiService(PLACE_API_BASE_URL:String): Retrofit {
 
         if (retrofit == null) {
 

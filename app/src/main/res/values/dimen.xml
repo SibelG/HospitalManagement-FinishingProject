@@ -2,4 +2,11 @@
 <resources>
     <dimen name="activity_horizonta_margin">16dp</dimen>
     <integer name="animation">3000</integer>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_logo_icon_width">40dp</dimen>
+    <dimen name="app_logo_icon_height">40dp</dimen>
+    <dimen name="dash_board_icon_height">150dp</dimen>
+    <dimen name="default_font_size">15dp</dimen>
+
 </resources>

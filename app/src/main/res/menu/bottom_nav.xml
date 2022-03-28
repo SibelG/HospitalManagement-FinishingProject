@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutFragment"
+            android:iconTint="@color/white"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/SensesFragment"
+            android:iconTint="@color/white"
+            android:icon="@drawable/sesses"
+            android:title="Senses" />
+        <item
+            android:id="@+id/lightTextFragment"
+            android:iconTint="@color/white"
+            android:icon="@drawable/kvvk"
+            android:title="KVVK" />
 
+    </group>
 </menu>

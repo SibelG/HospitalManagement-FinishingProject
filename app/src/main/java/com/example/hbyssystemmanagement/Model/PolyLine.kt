@@ -1,4 +1,5 @@
 package com.example.hbyssystemmanagement.Model
 
-class Polyline {
+class PolyLine {
+    var points = ""
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_appointment_history"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:iconTint="@color/white"
+        android:title="Appointment History" />
+    <item
+        android:id="@+id/nav_appointment_request"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:iconTint="@color/white"
+        android:title="Appointment Request" />
+    <item
+        android:id="@+id/nav_nearest_hospital"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:iconTint="@color/white"
+        android:title="Nearest Hospital" />
+    </group>
+</menu>
