@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import androidx.annotation.NonNull
 import com.example.hbyssystemmanagement.Model.Favourites
 import com.example.hbyssystemmanagement.R
 import com.squareup.picasso.Picasso
@@ -18,28 +17,6 @@ class FavouriteAdapter(context: Context, favouriteList: ArrayList<Favourites>) :
     var context: Context
     var favouriteList: ArrayList<Favourites>
 
-    @NonNull
-    /*override fun onCreateViewHolder(
-        @NonNull parent: ViewGroup,
-        viewType: Int
-    ): FavouriteViewHolder {
-        val itemView: View = LayoutInflater.from(context)
-            .inflate(R.layout.favourite_row, parent, false)
-        return FavouriteViewHolder(itemView)
-    }
-
-    override fun onBindViewHolder(@NonNull holder: FavouriteViewHolder, position: Int) {
-        Picasso.with(context)
-            .load(favouriteList[position].Image)
-            .into(holder.img_doctor)
-        holder.txt_doctor_name.text=favouriteList[position].Name
-        holder.txt_section.text=favouriteList[position].Section
-
-    }
-
-    override fun getItemCount(): Int {
-        return favouriteList.size
-    }*/
 
     override fun getCount(): Int {
         return favouriteList.size
@@ -49,10 +26,6 @@ class FavouriteAdapter(context: Context, favouriteList: ArrayList<Favourites>) :
         return favouriteList[position]
     }
 
-    /*fun getItem(position: Int):Favourites{
-        return favouriteList.get(position)
-
-    }*/
 
     override fun getItemId(position: Int): Long {
         TODO("Not yet implemented")
@@ -74,16 +47,6 @@ class FavouriteAdapter(context: Context, favouriteList: ArrayList<Favourites>) :
 
         return view
     }
-
-    /*fun removeItem(position: Int) {
-        favouriteList.removeAt(position)
-        notifyItemRemoved(position)
-    }
-
-    fun restoreItem(item: Favourites, position: Int) {
-        favouriteList.add(position, item)
-        notifyItemInserted(position)
-    }*/
 
     init {
         this.context = context

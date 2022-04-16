@@ -1,0 +1,478 @@
+[
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_done_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_done_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_my_appointment_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\my_appointment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\menu\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_blank.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_doctor_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\doctor_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_emergency.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\emergency.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_nearest_hospital2.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_nearest_hospital2.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_access_time_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_emergence.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\emergence.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_show_comment.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_show_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_section.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\section.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_about.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ear_nose.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ear_nose.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_local_hospital_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_local_hospital_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_boy.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_boy.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_senses.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_senses.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_row.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_nav_headerhome.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_nav_headerhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_doctor_blank.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_doctor_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\menu_search_menu.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\menu\\search_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_question.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\question.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_search_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_person_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_feedback.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_visited_list.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_visited_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_near_place.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_search_near_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_map.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\map.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_place.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_view_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fav_doctor_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fav_doctor_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_favourite.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_place_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_place_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_nearest_hospital.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_nearest_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_girl.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_girl.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_kvvk.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\kvvk.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_directions.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_view_directions.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_message_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\message_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_tab.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_text.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_address_layout.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\address_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_notify_icon.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\notify_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_linearborder.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\linearborder.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_delete_black_24dp.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_perm_contact_calendar_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_perm_contact_calendar_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_horizontal_bar_content.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\horizontal_bar_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_dogumhane.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\dogumhane.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_doctor_icon.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\doctor_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_appointment.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_place_detail.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_place_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_back.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\button_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\bg.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_visited_places.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_visited_places.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_section_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\section_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_content.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_appointment.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\appointment.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_girl_blur.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_girl_blur.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_local_pharmacy_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_local_pharmacy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_doctor_detail.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_doctor_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_phone_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_doctor_list.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_doctor_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_date.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_dietician.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\dietician.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_favourite_row.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\favourite_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_cancel_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_the_nearest_hospital.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_the_nearest_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_home_work_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_home_work_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonback.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\buttonback.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_boy_blur.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_boy_blur.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_doctormenu.png.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\doctormenu.png"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_message_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_message_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sesses.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable-v24\\sesses.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_comment.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\comment.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_section_list.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_section_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_emr.jpg.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\emr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_appointment.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_view_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_security_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_security_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\font_brandomi_random.ttf.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\font\\brandomi_random.ttf"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_appointment_view_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\appointment_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_epulse.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_epulse.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_send_message.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\drawable\\ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_comment_layout_item.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\comment_layout_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\menu_appointment_menu.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\menu\\appointment_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_location_picker_dialog.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\fragment_location_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_whats_wrong.xml.flat",
+        "source": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\src\\main\\res\\layout\\activity_whats_wrong.xml"
+    }
+]
