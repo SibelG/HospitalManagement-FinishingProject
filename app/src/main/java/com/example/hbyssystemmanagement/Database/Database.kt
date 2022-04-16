@@ -3,7 +3,6 @@ package com.example.hbyssystemmanagement.Database
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
-import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import com.example.hbyssystemmanagement.Model.Favourites
@@ -14,12 +13,12 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
     override fun onCreate(db: SQLiteDatabase) {
         // below is a sqlite query, where column names
         // along with their data types is given
-        val query = ("CREATE TABLE " + "Favourites" + " ("
-                + "DoctorId" + " TEXT PRIMARY KEY, " +
+        val query = " CREATE TABLE " + table + " (" +
+                "DoctorId" + " TEXT PRIMARY KEY, " +
                 "Name" + " TEXT," +
                 "Image" + " TEXT," +
                 "Section" + "TEXT,"+
-                "UserEmail" +  "TEXT"+")")
+                "UserEmail" +  "TEXT"+ ")"
 
         // we are calling sqlite
         // method for executing our query
@@ -27,7 +26,7 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
     }
     override fun onUpgrade(db: SQLiteDatabase, p1: Int, p2: Int) {
         // this method is to check if table already exists
-        db.execSQL("DROP TABLE IF EXISTS " + "Favourites")
+        db.execSQL("DROP TABLE IF EXISTS " + table)
         onCreate(db)
     }
     fun addFavourites(item:Favourites ){
@@ -107,50 +106,6 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
             true
         }
     }
-    fun getName(): Cursor? {
-
-        // here we are creating a readable
-        // variable of our database
-        // as we want to read value from it
-        val db = this.readableDatabase
-
-        // below code returns a cursor to
-        // read data from the database
-        return db.rawQuery("SELECT * FROM " + table, null)
-
-    }
-    /*@SuppressLint("Range")
-    fun GetAllfavourites(UserEmail: String): ArrayList<Favourites>? {
-        val db = readableDatabase
-        val qb = SQLiteQueryBuilder()
-        val sqlTable = "Favourites"
-        qb.tables = sqlTable
-        val SqlSelect = arrayOf(
-            "DoctorId",
-            "Image",
-            "Name",
-            "Section",
-            "UserEmail"
-        )
-        val c: Cursor =
-            qb.query(db, SqlSelect, "UserEmail=?", arrayOf(UserEmail), null, null, null, null, null)
-        val result: ArrayList<Favourites> = ArrayList()
-        if (c.moveToFirst()) {
-            do {
-                result.add(
-                    Favourites(
-                        c.getString(c.getColumnIndex("DoctorId")),
-                        c.getString(c.getColumnIndex("Image")),
-                        c.getString(c.getColumnIndex("Name")),
-                        c.getString(c.getColumnIndex("Section")),
-                        c.getString(c.getColumnIndex("UserEmail"))
-
-                    )
-                )
-            } while (c.moveToNext())
-        }
-        return result
-    }*/
 
 
     fun deleteToCart() {
