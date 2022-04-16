@@ -41,7 +41,7 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
         values.put("Name", item.Name)
         values.put("Image", item.Image)
         values.put("Section",item.Section)
-        values.put("Useremail",item.UserEmail)
+        values.put("UserEmail",item.UserEmail)
 
         // here we are creating a
         // writable variable of
