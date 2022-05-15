@@ -16,7 +16,7 @@ Navigation Drawer kullanılmıştır.Beş veya daha fazla üst düzey hedefe sah
 -Şifre İşlemleri
 -Çıkış
 
-![image](https://user-images.githubusercontent.com/46397935/168469588-f5f50985-766c-470a-a0cd-73c79075e675.png)
+![image](https://user-images.githubusercontent.com/46397935/168470120-994f77b1-780a-4d7a-96e5-5364e7c6faa7.png)
 
 Doctors Screen
 Firebase’e kayıt edilen doktor bilgileri Relative Layout kullanılarak çekilmiştir.
