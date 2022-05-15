@@ -26,7 +26,7 @@ hedefler arasında hızlı gezinme
 -Şifre İşlemleri
 -Çıkış
 
-![image](https://user-images.githubusercontent.com/46397935/168470362-ffd4e590-ae1b-4f71-88c1-0ea1c49e2cec.png)
+![image](https://user-images.githubusercontent.com/46397935/168470876-6d748ecb-a5a1-4470-9666-aa2a94b2ae04.png)
 
 
 ## Doctors Screen
