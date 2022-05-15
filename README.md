@@ -16,7 +16,8 @@ Navigation Drawer kullanılmıştır.Beş veya daha fazla üst düzey hedefe sah
 -Şifre İşlemleri
 -Çıkış
 
-![image](https://user-images.githubusercontent.com/46397935/168470262-95640033-6ab1-4247-8a20-4f466b6a26a5.png)
+![image](https://user-images.githubusercontent.com/46397935/168470362-ffd4e590-ae1b-4f71-88c1-0ea1c49e2cec.png)
+
 
 Doctors Screen
 Firebase’e kayıt edilen doktor bilgileri Relative Layout kullanılarak çekilmiştir.
@@ -27,30 +28,27 @@ Firebase’e kayıt edilen doktor bilgileri Relative Layout kullanılarak çekil
 Doctor Detail Screen
 İlgili doktora ait bilgilrin verildiği, randevu alınıp doktara mesaj gönderilebildiği,yorum yapılabildiği ve doktora ait yorumların listelendiği ekran verilerini tutar.
 
-![image](https://user-images.githubusercontent.com/46397935/168469979-2e007718-0cea-4cb3-b90a-f2ba526a4941.png)
-
+![image](https://user-images.githubusercontent.com/46397935/168470422-d206edd3-5c41-46d2-8b86-74e0ec76d932.png)
 
 Doctor Appointment Screen
 İlgili doktordan müsait gün varsa  tarih seçilerek randevu alınan ekrandır.Randevu alındığındakullanıcıya bildirim gönderilir.Daha önce aynı doktordan randevu aldıysak tekrar randevu oluşturmaya izin vermez.
 
-![image](https://user-images.githubusercontent.com/46397935/168469990-4f7fc6c8-b61e-47c3-94cf-d89ebea6a978.png)
-
+![image](https://user-images.githubusercontent.com/46397935/168470447-1e469059-d430-400f-90f1-800466f73f47.png)
 
 My Appointments Screen
 Aldığımız tüm doktor randevularını içeren ekran.
 
-![image](https://user-images.githubusercontent.com/46397935/168470005-1b3c6228-6bb7-409d-8a6e-c9376cfefb35.png)
-
+![image](https://user-images.githubusercontent.com/46397935/168470473-8efc3d54-cd91-436a-9b15-21a0cd60d410.png)
 
 Favourites Screen 
 Doktorların puan verilerini tutan ekran
 
-![image](https://user-images.githubusercontent.com/46397935/168470033-fd8ee4dc-6657-4345-88a9-d7b199b140fc.png)
+![image](https://user-images.githubusercontent.com/46397935/168470501-cbf7ed18-8a9c-4e60-8b6a-8ee002d1d859.png)
 
 Comments Screen
 İlgili doktora ait yapılan tüm yorumları içeren ekran
 
-![image](https://user-images.githubusercontent.com/46397935/168470067-490aac7a-ad8c-4334-8278-a984d82aba9f.png)
+![image](https://user-images.githubusercontent.com/46397935/168470523-981d44e7-dce8-4f34-80f2-c2dd6e458941.png)
 
 The Most Hospital
 En yakındaki hastane ve eczane bilgileri Google Haritalar ve Google Places Api ile bulunmuş ve yere ait detaylar yer almaktadır.
