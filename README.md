@@ -4,7 +4,7 @@ Login Screen
 Firebase Authentication, uygulamanızda kullanıcıların kimliğini doğrulamak için arka uç hizmetleri, kullanımı kolay SDK'lar ve hazır UI kitaplıkları sağlar. Parolalar, telefon numaraları, Google, Facebook ve Twitter gibi popüler birleşik kimlik sağlayıcıları ve daha fazlasını kullanarak kimlik doğrulamayı destekler. Firebase ve Google ile Authentication yapılmıştır.
 
 
-![image](https://user-images.githubusercontent.com/46397935/168469563-262f9333-ff6a-4cb9-bb24-3cdde78ae21a.png)
+![image](https://user-images.githubusercontent.com/46397935/168470560-f197cc42-3350-4ca9-9c11-185dde7bdd90.png)
 
 #Home Screen
 Navigation Drawer kullanılmıştır.Beş veya daha fazla üst düzey hedefe sahip uygulamalar Navigasyon hiyerarşisinin iki veya daha fazla düzeyine sahip uygulamalar İlgisiz hedefler arasında hızlı gezinme
