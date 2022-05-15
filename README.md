@@ -22,8 +22,7 @@ Navigation Drawer kullanılmıştır.Beş veya daha fazla üst düzey hedefe sah
 Doctors Screen
 Firebase’e kayıt edilen doktor bilgileri Relative Layout kullanılarak çekilmiştir.
 
-![image](https://user-images.githubusercontent.com/46397935/168469974-69ac5713-68a2-4817-9cec-54441281ef0e.png)
-
+![image](https://user-images.githubusercontent.com/46397935/168470596-f41c06c7-afd0-4a87-98d6-16c8a1f92715.png)
 
 Doctor Detail Screen
 İlgili doktora ait bilgilrin verildiği, randevu alınıp doktara mesaj gönderilebildiği,yorum yapılabildiği ve doktora ait yorumların listelendiği ekran verilerini tutar.
