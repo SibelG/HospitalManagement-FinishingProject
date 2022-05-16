@@ -75,7 +75,8 @@ Google Haritalar ve Google Places Api
 ile bulunmuş ve yere ait detaylar
 yer almaktadır.
 
-![image](https://user-images.githubusercontent.com/46397935/168687047-9527007e-c835-46eb-a55f-ce804f3ed7fd.png)
+![image](https://user-images.githubusercontent.com/46397935/168687129-344e49e3-9192-4e8f-b71c-547cad95cb2d.png)
+
 
 
 
