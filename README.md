@@ -75,6 +75,9 @@ Google Haritalar ve Google Places Api
 ile bulunmuş ve yere ait detaylar
 yer almaktadır.
 
+![nearHospital](https://user-images.githubusercontent.com/46397935/168686840-6bba7b33-9619-49f6-a02a-26b42ded4570.png)
+
+
 
 
 
