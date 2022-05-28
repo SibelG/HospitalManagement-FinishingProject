@@ -60,11 +60,28 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/openNowWeek"
+                android:id="@+id/Telephone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Open Week"
+                android:text="Telephone"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/BusinessStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Business Status"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Website"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 

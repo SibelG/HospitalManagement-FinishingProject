@@ -17,10 +17,14 @@ import com.daimajia.slider.library.SliderTypes.TextSliderView
 import com.example.hbyssystemmanagement.Common.Common
 import com.example.hbyssystemmanagement.Model.Banner
 import com.example.hbyssystemmanagement.R
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuth.AuthStateListener
 import com.google.firebase.database.*
 import io.paperdb.Paper
 
@@ -28,22 +32,40 @@ import io.paperdb.Paper
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
     lateinit var mDatabase : DatabaseReference
     var mAuth = FirebaseAuth.getInstance()
-    var user = FirebaseAuth.getInstance().currentUser
     lateinit var drawer: DrawerLayout
     lateinit var fab: FloatingActionButton
     private lateinit var bottomView:BottomNavigationView
     lateinit var image_slider:HashMap<String,String>
     lateinit var mSlider:SliderLayout
+    private lateinit var googleSignInClient: GoogleSignInClient
+    private var authStateListener: AuthStateListener? = null
 
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        /*var user = mAuth.currentUser
+        if (user == null) {
+            startActivity(Intent(this@HomeActivity, SignInActivity::class.java))
+            finish()
+        }*/
+        /*authStateListener = AuthStateListener { firebaseAuth ->
+            val user = firebaseAuth.currentUser
+            // Eğer geçerli bir kullanıcı oturumu yoksa LoginActivity e geçilir.
+            // Oturum kapatma işlemi yapıldığında bu sayede LoginActivity e geçilir.
+            if (user == null) {
+                startActivity(Intent(this@HomeActivity, SignInActivity::class.java))
+                finish()
+            }
+        }*/
+
         val toolbar = findViewById<View>(R.id.myToolbar) as Toolbar
         setSupportActionBar(toolbar)
         //supportActionBar!!.title = "Menu"
         supportActionBar!!.setDisplayHomeAsUpEnabled(true);
+
 
         drawer = findViewById<DrawerLayout>(R.id.DrawerLayout)
         val drawerToggle:ActionBarDrawerToggle = object : ActionBarDrawerToggle(
@@ -74,7 +96,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         view.setNavigationItemSelectedListener(this)
         val headerView = view.getHeaderView(0)
 
-        var uid = user!!.uid
+        //var uid = user!!.uid
 
 
 
@@ -87,7 +109,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         var PassKey:String=Paper.book().read("Pwd_Key")
         if(UserKey!=null && PassKey!=null){
             if(!UserKey.isEmpty() && !PassKey.isEmpty()){
-                //Login(UserKey,PassKey)
+                Login(UserKey,PassKey)
             }
         }*/
         var bottomNavigationView=findViewById<BottomNavigationView>(R.id.bottomNavigationView)
@@ -106,6 +128,16 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             true
         }
+        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(getString(R.string.default_web_client_id))
+            .requestEmail()
+            .build()
+        googleSignInClient= GoogleSignIn.getClient(this,gso)
+        // Eğer geçerli bir kullanıcı oturumu yoksa LoginActivity e geçilir.
+        // Oturum kapatma işlemi yapıldığında bu sayede LoginActivity e geçilir.
+
+
+
     }
     private fun setCurrentFragment(fragment: Fragment)=
         supportFragmentManager.beginTransaction().apply {
@@ -134,6 +166,21 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     }
+
+
+    override fun onStop() {
+        super.onStop()
+        mSlider.stopAutoCycle()
+
+    }
+
+    override fun onStart() {
+        super.onStart()
+        mSlider.startAutoCycle()
+    }
+
+
+
     private fun setupSlider() {
         mSlider=findViewById(R.id.sliderSection)
         image_slider=HashMap<String,String>()
@@ -205,20 +252,13 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         });*/
 
 
-    override fun onStop(){
-        super.onStop()
-        mSlider.stopAutoCycle()
 
-    }
 
 
  override fun onNavigationItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
 
-        if (id == R.id.nav_menu) {
-            val intent = Intent(this@HomeActivity, AppointmentActivity::class.java)
-            startActivity(intent)
-        }else if (id == R.id.nav_doctor) {
+        if (id == R.id.nav_doctor) {
             val intent = Intent(this@HomeActivity, DoctorListActivity::class.java)
             startActivity(intent)
         }else if (id == R.id.nav_section) {
@@ -229,12 +269,18 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             startActivity(intent)
         } else if (id == R.id.signOut) {
 
+           /* googleSignInClient.signOut().addOnCompleteListener {
+                val intent= Intent(this, SignInActivity::class.java)
+                Toast.makeText(this,"Logging Out",Toast.LENGTH_SHORT).show()
+                startActivity(intent)
+                finish()
+            }*/
             Paper.book().destroy()
 
 
             mAuth.signOut()
             Toast.makeText(this, "Signed Out ", Toast.LENGTH_LONG).show()
-            startActivity(Intent(this, SignInActivity::class.java))
+            startActivity(Intent(this@HomeActivity, SignInActivity::class.java))
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             finish()
         } else if (id == R.id.changePass) {
@@ -244,16 +290,14 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         else if(id==R.id.nav_Appointment) {
             startActivity(Intent(this@HomeActivity, ViewAppointmentActivity::class.java))
         }
+        /*
         else if(id==R.id.nav_Visited) {
             intent.putExtra("info", "new")
             startActivity(Intent(applicationContext, VisitedPlacesActivity::class.java))
 
 
-        } else if(id==R.id.favourites) {
+        }*/ else if(id==R.id.favourites) {
             startActivity(Intent(applicationContext, FavouriteActivity::class.java))
-        }else if (id == R.id.nav_Visited_list) {
-            val intent = Intent(this@HomeActivity, VisitedListActivity::class.java)
-            startActivity(intent)
         }else if (id == R.id.nav_nearest_hospital) {
             val intent = Intent(this@HomeActivity, SearchNearPlace::class.java)
             startActivity(intent)
@@ -271,14 +315,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             super.onBackPressed()
         }
     }
-    private fun showAddress() {
-        TODO("Not yet implemented")
-    }
 
-
-    private fun showSettingsDialog() {
-        TODO("Not yet implemented")
-    }
 }
 
 

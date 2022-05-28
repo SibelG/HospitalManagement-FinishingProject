@@ -1,11 +1,18 @@
 package com.example.hbyssystemmanagement.View
 
+import android.app.*
+import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
+import android.graphics.BitmapFactory
+import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.RemoteViews
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -36,6 +43,15 @@ class ViewAppointmentActivity : AppCompatActivity() {
     private var slot: String? = null
     private var Appointment_time: String? = null
     private var doctorID: String? = null
+    lateinit var doctorList: ArrayList<Booked_Appointments>
+    lateinit var manager: NotificationManager
+    lateinit var channel: NotificationChannel
+    lateinit var notificationBuilder: Notification.Builder
+
+    private val channelId: String = " com.example.hbyssystemmanagement.View"
+    private val description: String = "Notification Sample Description"
+    private val notoficationId = 1001
+    private val requestCode = 1002
 
 
 
@@ -43,6 +59,7 @@ class ViewAppointmentActivity : AppCompatActivity() {
     private val mDatabase = FirebaseDatabase.getInstance().reference
     private val mAuth = FirebaseAuth.getInstance()
     private lateinit var mApiInterface: ApiInterface
+    private val mPatientDatabase = FirebaseDatabase.getInstance().reference
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,8 +70,9 @@ class ViewAppointmentActivity : AppCompatActivity() {
         supportActionBar!!.title = "Booked Appointments"
         recyclerView = findViewById<View>(R.id.show_Appointment_recyclerView) as RecyclerView
         recyclerView!!.setHasFixedSize(true)
-        val manager: RecyclerView.LayoutManager = LinearLayoutManager(this)
-        recyclerView.layoutManager = manager
+        manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        val mLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this)
+        recyclerView.layoutManager = mLayoutManager
         mApiInterface = RetrofitClient.getRetrofit.create(ApiInterface::class.java)
 
     }
@@ -89,7 +107,7 @@ class ViewAppointmentActivity : AppCompatActivity() {
 
 
 
-                        holder.itemView.setOnClickListener(View.OnClickListener {
+                        holder.removeButton.setOnClickListener(View.OnClickListener {
                             doctorID = model.doctorId.toString()
                             BookedAPKey = getRef(position).key!!.toString()
                             //                                Toast.makeText(Patient_ShowBookedAppointmentActivity.this, "Key = "+BookedAPKey, Toast.LENGTH_SHORT).show();
@@ -98,7 +116,10 @@ class ViewAppointmentActivity : AppCompatActivity() {
                             changeSlotToTime(Appointment_time)
                             alertDialog()
 
+
+
                         })
+
 
 
 
@@ -126,7 +147,6 @@ class ViewAppointmentActivity : AppCompatActivity() {
                             override fun onCancelled(databaseError: DatabaseError) {}
 
                         })
-
 
 
 
@@ -186,13 +206,43 @@ class ViewAppointmentActivity : AppCompatActivity() {
         })
     }
     private fun sendAppointmentStatusUser() {
-        /* val intent = intent
-         val message = intent.getStringExtra("message")
-         if(!message.isNullOrEmpty()) {
-         }*/
+        val intent = Intent(this, LauncherActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(this, requestCode, intent, PendingIntent.FLAG_IMMUTABLE)
 
 
-        val title:String="HBYS"
+        val notificationTitle = "HBYS"
+        val notificationContent = "You canceled Appointment Registration"
+        val contentView = RemoteViews(packageName, R.layout.activity_after_notification)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+
+            channel = NotificationChannel(channelId, description, NotificationManager.IMPORTANCE_HIGH)
+            channel.enableLights(true)
+            channel.lightColor = Color.BLUE
+            channel.enableVibration(true)
+
+            manager.createNotificationChannel(channel)
+
+            notificationBuilder = Notification.Builder(this, channelId)
+                .setContentTitle(notificationTitle)
+                .setContentText(notificationContent)
+                //.setContent(contentView)
+                .setSmallIcon(R.mipmap.notify)
+                .setLargeIcon(BitmapFactory.decodeResource(resources, R.mipmap.notify))
+                .setContentIntent(pendingIntent)
+            } else {
+                notificationBuilder = Notification.Builder(this)
+                    .setContentTitle(notificationTitle)
+                    .setContentText(notificationContent)
+                    //.setContent(contentView)
+                    .setSmallIcon(R.mipmap.notify)
+                    .setLargeIcon(BitmapFactory.decodeResource(resources,R.mipmap.notify))
+                    .setContentIntent(pendingIntent)
+            }
+
+            manager.notify(notoficationId, notificationBuilder.build())
+
+
+        /*val title:String="HBYS"
         val content:String="About Your New Appointment "
         FirebaseDatabase.getInstance().getReference().child("Tokens").child(mAuth.currentUser!!.uid).child("token").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
@@ -205,7 +255,7 @@ class ViewAppointmentActivity : AppCompatActivity() {
             }
         })
 
-        UpdateToken()
+        UpdateToken()*/
 
 
     }

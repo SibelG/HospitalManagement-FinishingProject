@@ -15,7 +15,6 @@ import com.example.hbyssystemmanagement.Model.Results
 import com.example.hbyssystemmanagement.Remote.DirectionClient
 import com.example.hbyssystemmanagement.Remote.GoogleRetrofitClient
 import com.example.hbyssystemmanagement.View.Model.Request
-import com.example.hbyssystemmanagement.View.Model.User
 import com.google.firebase.auth.FirebaseAuth
 import java.util.*
 
@@ -23,7 +22,6 @@ import java.util.*
 object Common{
 
     val currentUser = FirebaseAuth.getInstance().currentUser
-    lateinit var CurrentEmail: User
     lateinit var CurrentRequest: Request
     var currentResult:Results?=null
     public val callData:String?="CallDoctorMap"

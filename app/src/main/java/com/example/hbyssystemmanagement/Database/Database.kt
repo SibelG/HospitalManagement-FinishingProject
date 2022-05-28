@@ -13,12 +13,13 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
     override fun onCreate(db: SQLiteDatabase) {
         // below is a sqlite query, where column names
         // along with their data types is given
-        val query = " CREATE TABLE " + table + " (" +
-                "DoctorId" + " TEXT PRIMARY KEY, " +
+        val query = ("CREATE TABLE " + table + " ("
+                + " DoctorId" + " TEXT PRIMARY KEY," +
                 "Name" + " TEXT," +
                 "Image" + " TEXT," +
-                "Section" + "TEXT,"+
-                "UserEmail" +  "TEXT"+ ")"
+                "Section" + " TEXT," +
+                "UserEmail" +  " TEXT" + ")")
+
 
         // we are calling sqlite
         // method for executing our query
@@ -59,6 +60,8 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
     class Database(){}
 
 
+
+
     @SuppressLint("Range")
     fun getAllFavlist(): ArrayList<Favourites> {
         val list = ArrayList<Favourites>()
@@ -80,23 +83,17 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
         return list
     }
 
-    fun deleteFavourites(doctorId: String?,UserEmail:String?) {
-        val db = readableDatabase
-        val query = String.format(
-            "DELETE FROM Favourites WHERE DoctorId='%s' and UserEmail='%s';",
-            doctorId,
-            UserEmail
 
-        )
-        db.execSQL(query)
+    fun deleteFavourites(doctorId: String?,UserEmail:String?) {
+        val db = this.writableDatabase
+        db.delete(table, "DoctorId=? AND UserEmail=?" , arrayOf(doctorId, UserEmail))
+        db.close()
     }
 
     fun isFavourite(doctorId: String?,UserEmail:String?): Boolean {
         val db = readableDatabase
         val query = String.format(
-            "SELECT * FROM Favourites WHERE DoctorId='%s' and UserEmail='%s';",
-            doctorId,
-            UserEmail
+            "SELECT * FROM  $table WHERE DoctorId = ? AND UserEmail = ?", arrayOf(doctorId, UserEmail)
         )
         val cursor = db.rawQuery(query, null)
         return if (cursor.count <= 0) {
@@ -108,11 +105,6 @@ class Database(context: Context?,factory: SQLiteDatabase.CursorFactory?) :
     }
 
 
-    fun deleteToCart() {
-        val db = readableDatabase
-        val query = String.format("DELETE FROM Favourites")
-        db.execSQL(query)
-    }
 
     /*val countCart: Int
         get() {

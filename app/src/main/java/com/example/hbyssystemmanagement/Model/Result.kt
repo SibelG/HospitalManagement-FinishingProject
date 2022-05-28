@@ -23,6 +23,8 @@ class Result {
 
      val reference: String? = null
 
+    val business_status:String? = null
+
      val geometry: Geometry? = null
 
      val opening_hours: OpeningHours? = null

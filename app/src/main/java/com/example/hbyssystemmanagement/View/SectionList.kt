@@ -5,27 +5,22 @@ import android.os.Bundle
 import android.os.Handler
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.View
-import android.widget.*
+import android.widget.EditText
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.hbyssystemmanagement.Model.Section
 import com.example.hbyssystemmanagement.R
-import com.example.hbyssystemmanagement.View.Model.Doctor
-import com.example.hbyssystemmanagement.adapters.DoctorAdapter
 import com.example.hbyssystemmanagement.adapters.SectionAdapter
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.Query
-import com.squareup.picasso.Picasso
 import com.squareup.picasso.Target
-import java.util.*
 
 
 class SectionList : AppCompatActivity() {
@@ -145,11 +140,13 @@ class SectionList : AppCompatActivity() {
 
 
                                 val section = userSnapshot.getValue(Section::class.java)
-                                SearchSectionArrayList.add(section!!)
+                                if (section!!.SectionName!!.toLowerCase().contains(searchText.toLowerCase())) {
+                                    SearchSectionArrayList.add(section!!)
+                                }
+
 
                             }
-                            recyclerview.layoutManager = LinearLayoutManager(applicationContext)
-                            recyclerview.setHasFixedSize(true)
+
                             recyclerview!!.adapter = SectionAdapter(SearchSectionArrayList)
 
 
@@ -173,37 +170,6 @@ class SectionList : AppCompatActivity() {
         var sectionName: TextView =mview.findViewById(R.id.sectionName)
         var sectionImage: ImageView? = mview.findViewById(R.id.sectionImage)
     }
-    private fun getDataFromFirestore() {
 
-        db.collection("Section").orderBy("date",Query.Direction.DESCENDING).addSnapshotListener { snapshot, exception ->
-            if (exception != null) {
-                Toast.makeText(applicationContext,exception.localizedMessage,Toast.LENGTH_LONG).show()
-            } else {
-
-                if (snapshot != null) {
-                    if (!snapshot.isEmpty) {
-
-                        sectionArrayList.clear()
-
-                        val documents = snapshot.documents
-                        for (document in documents) {
-                            val sectionName = document.get("SectionName") as String
-                            val sectionImage = document.get("SectionImage") as String
-
-                            //val timestamp = document.get("date") as Timestamp
-                            //val date = timestamp.toDate()
-
-                            val post = Section(sectionImage,sectionName)
-                            sectionArrayList.add(post)
-                        }
-                        adapter!!.notifyDataSetChanged()
-
-                    }
-                }
-
-            }
-        }
-
-    }
 }
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sblgn\\AndroidStudioProjects\\HbysSystemManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "com.example.hbyssystemmanagement.app-mergeDebugResources-66:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\5fc219d166d1b59e2e0b9a0ff9353473\\transformed\\appcompat-1.4.1\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\b467b2515cecf8ad4b35acad627e594b\\transformed\\appcompat-1.4.1\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\2ae39a55f36f38e59342b55a4956f0f8\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\347ccead9842c2025e4ca8df50f387e9\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\5964dc6ef4300f043442901cef86aa69\\transformed\\jetified-ui-1.0.5\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\sblgn\\.gradle\\caches\\transforms-3\\5b2ce3be34b394373bfa93c80dc58ac0\\transformed\\jetified-ui-1.0.5\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

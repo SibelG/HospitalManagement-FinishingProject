@@ -9,10 +9,8 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.EditText
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.hbyssystemmanagement.R
@@ -21,7 +19,6 @@ import com.example.hbyssystemmanagement.adapters.DoctorAdapter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.Query
 import com.squareup.picasso.Target
 
 
@@ -40,6 +37,7 @@ class DoctorListActivity : AppCompatActivity() {
 
     var target: Target? = null
     lateinit var refreshLayout: SwipeRefreshLayout
+
     lateinit var adapter : DoctorAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,7 +50,6 @@ class DoctorListActivity : AppCompatActivity() {
         doctorRef = FirebaseDatabase.getInstance().getReference("Doctors/Doctor")
 
 
-        //getDataFromFirestore()
 
         recyclerview = findViewById<RecyclerView>(R.id.recycler_doctor)
 
@@ -72,15 +69,7 @@ class DoctorListActivity : AppCompatActivity() {
         doctorArrayList = arrayListOf<Doctor>()
         searchdoctorArrayList= arrayListOf<Doctor>()
 
-        getData()
-        refreshLayout = findViewById(R.id.swipeRefreshLayout)
-        refreshLayout.setOnRefreshListener {
 
-         getData()
-            Handler().postDelayed(Runnable {
-                refreshLayout.isRefreshing = false
-            }, 4000)
-        }
         mSearchText.addTextChangedListener(object  : TextWatcher {
             override fun afterTextChanged(p0: Editable?) {
 
@@ -92,13 +81,23 @@ class DoctorListActivity : AppCompatActivity() {
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
                 val searchText = mSearchText.getText().toString().trim()
-
                 getSearchData(searchText)
+
+
             }
         })
         backHome.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this@DoctorListActivity,HomeActivity::class.java))
         })
+        getData()
+        refreshLayout = findViewById(R.id.swipeRefreshLayout)
+        refreshLayout.setOnRefreshListener {
+
+            getData()
+            Handler().postDelayed(Runnable {
+                refreshLayout.isRefreshing = false
+            }, 4000)
+        }
     }
 
 
@@ -139,27 +138,26 @@ class DoctorListActivity : AppCompatActivity() {
 
     private fun getSearchData(searchText : String) {
 
-        if (searchText.isEmpty()) {
 
-            recyclerview.adapter = DoctorAdapter(doctorArrayList)
-
-        } else {
-            doctorRef.orderByChild("Name").startAt(searchText).endAt(searchText + "\uf8ff")
+            doctorRef.orderByChild("Name")
                 .addValueEventListener(object : ValueEventListener {
 
                     override fun onDataChange(snapshot: DataSnapshot) {
 
                         if (snapshot.exists()) {
+                            searchdoctorArrayList.clear()
 
                             for (userSnapshot in snapshot.children) {
 
 
                                 val doctor = userSnapshot.getValue(Doctor::class.java)
-                                searchdoctorArrayList.add(doctor!!)
+                                if (doctor!!.Name!!.toLowerCase().contains(searchText.toLowerCase())) {
+                                    searchdoctorArrayList.add(doctor!!)
+                                }
+
 
                             }
-                            recyclerview.layoutManager = LinearLayoutManager(applicationContext)
-                            recyclerview.setHasFixedSize(true)
+
                             recyclerview!!.adapter = DoctorAdapter(searchdoctorArrayList)
 
 
@@ -172,7 +170,7 @@ class DoctorListActivity : AppCompatActivity() {
                     }
 
                 })
-        }
+
     }
 /*else {
 
@@ -211,42 +209,8 @@ class DoctorListActivity : AppCompatActivity() {
         var doctorSection: TextView =mview.findViewById(R.id.doctorBranch)
         var doctorImage: ImageView? = mview.findViewById(R.id.doctorImage)
     }*/
-    private fun getDataFromFirestore() {
 
-        db.collection("Doctor").orderBy("date",Query.Direction.DESCENDING).addSnapshotListener { snapshot, exception ->
-            if (exception != null) {
-                Toast.makeText(applicationContext,exception.localizedMessage,Toast.LENGTH_LONG).show()
-            } else {
 
-                if(snapshot != null) {
-                    if (!snapshot.isEmpty) {
 
-                        doctorArrayList.clear()
-
-                        val documents = snapshot.documents
-                        for (document in documents) {
-                            val post= document.toObject(Doctor::class.java)
-
-                            if (post != null) {
-                                doctorArrayList.add(post)
-                            }
-                            /*val name = document.get("Name") as String
-                            val image = document.get("Image") as String
-                            val section = document.get("Section") as String
-                            //val timestamp = document.get("date") as Timestamp
-                            //val date = timestamp.toDate()
-
-                            val post = Doctor(image,name,section,"")*/
-
-                        }
-                        adapter!!.notifyDataSetChanged()
-
-                    }
-                }
-
-            }
-        }
-
-    }
 }
 

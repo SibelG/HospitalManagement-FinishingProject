@@ -917,7 +917,6 @@ attr lpd_transformDuration
 attr lpd_transformInterpolator
 attr lpd_travelDuration
 attr lpd_verticalAlign
-attr mapId
 attr mapType
 attr marginHorizontal
 attr materialAlertDialogBodyTextStyle
@@ -1609,6 +1608,9 @@ attr yearTodayStyle
 attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
 bool m3_sys_typescale_body_large_text_all_caps
 bool m3_sys_typescale_body_medium_text_all_caps
 bool m3_sys_typescale_body_small_text_all_caps
@@ -1625,6 +1627,7 @@ bool m3_sys_typescale_title_large_text_all_caps
 bool m3_sys_typescale_title_medium_text_all_caps
 bool m3_sys_typescale_title_small_text_all_caps
 bool mtrl_btn_textappearance_all_caps
+bool workmanager_test_configuration
 color Blue
 color a
 color abc_background_cache_hint_selector_material_dark
@@ -1684,6 +1687,7 @@ color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color colorAccent
+color colorPrimary
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -3402,6 +3406,7 @@ drawable edit_text_background
 drawable emergence
 drawable emergency
 drawable emr
+drawable google_button
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_access_time_24
@@ -3458,6 +3463,8 @@ drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
 drawable map
+drawable marker_hospital
+drawable marker_pharmacy
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3478,6 +3485,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
+drawable nav_selector
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3518,6 +3526,7 @@ id Address
 id BOTTOM_END
 id BOTTOM_START
 id Background2Foreground
+id BusinessStatus
 id CTRL
 id CubeIn
 id Default
@@ -3548,6 +3557,8 @@ id Stack
 id TOP_END
 id TOP_START
 id Tablet
+id Telephone
+id Website
 id ZoomIn
 id ZoomOut
 id ZoomOutSlide
@@ -3600,12 +3611,14 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_hospital
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_pharmacy
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3628,7 +3641,6 @@ id appDate
 id appDoctorName
 id appDoktorSection
 id appTime
-id app_heading
 id app_rate_dialog_comment_edit_text
 id app_rate_dialog_description_text
 id app_rate_dialog_note_description
@@ -3645,7 +3657,6 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id backHome
 id back_and_forth
-id balancePay
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3654,14 +3665,13 @@ id bestChoice
 id bevel
 id blocking
 id bmi
-id bmiView
-id bmi_status
 id bold
 id bold_italic
 id bookAppointment_selectDate
 id bookAppointment_selectedDate
 id bottom
 id bottomNavigationView
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3673,8 +3683,8 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
 id btnHospitalFind
+id btnPharmacyFind
 id btnResetPassword
-id btnRestorentFind
 id btnShareFav
 id btn_email_create_account
 id btn_email_sign_in
@@ -3689,8 +3699,6 @@ id buttonDirection
 id buttonPanel
 id buttonRegister
 id cache_measures
-id calculate_again
-id calculate_button
 id callMeasure
 id cancel_action
 id cancel_button
@@ -3735,7 +3743,6 @@ id coordinator
 id cos
 id counterclockwise
 id createAccount
-id creditPay
 id currentState
 id custom
 id customPanel
@@ -3859,8 +3866,6 @@ id groups
 id guideline
 id header_title
 id heigh
-id height_heading
-id height_value
 id help
 id helper
 id helperWithError
@@ -3887,8 +3892,6 @@ id imageUrl
 id imageView2
 id imageView3
 id imageViewProductFav
-id image_boy
-id image_girl
 id img_doctor
 id immediateStop
 id included
@@ -3995,14 +3998,11 @@ id multiply
 id myToolbar
 id navView
 id nav_Appointment
-id nav_Visited
-id nav_Visited_list
 id nav_appointment_history
 id nav_appointment_request
 id nav_controller_view_tag
 id nav_doctor
 id nav_host_fragment_container
-id nav_menu
 id nav_nearest_hospital
 id nav_section
 id navigation_bar_item_active_indicator_view
@@ -4029,7 +4029,6 @@ id off
 id on
 id onInterceptTouchReturnSwipe
 id openNow
-id openNowWeek
 id outline
 id outward
 id oval
@@ -4221,17 +4220,25 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textAbout
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView11
+id textView12
 id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 id textView7
+id textView9
+id textView9Kvvk
+id textViewAbout
+id textViewKvvk
 id textViewLogin
 id text_input_end_icon
 id text_input_error_icon
@@ -4312,8 +4319,6 @@ id visible_removing_fragment_view_tag
 id wave
 id webview
 id weig
-id weight_heading
-id weight_value
 id west
 id wide
 id window
@@ -4387,6 +4392,7 @@ interpolator mtrl_fast_out_linear_in
 interpolator mtrl_fast_out_slow_in
 interpolator mtrl_linear
 interpolator mtrl_linear_out_slow_in
+layout a
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
 layout abc_action_menu_item_layout
@@ -4415,20 +4421,16 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_about
+layout activity_after_notification
 layout activity_appointment
 layout activity_content
 layout activity_doctor_detail
 layout activity_doctor_list
-layout activity_epulse
 layout activity_favourite
-layout activity_feedback
 layout activity_home
 layout activity_main
 layout activity_maps
 layout activity_nav_headerhome
-layout activity_nearest_hospital
-layout activity_nearest_hospital2
 layout activity_place_detail
 layout activity_reset_password
 layout activity_search
@@ -4444,7 +4446,6 @@ layout activity_view_directions
 layout activity_view_place
 layout activity_visited_list
 layout activity_visited_places
-layout activity_whats_wrong
 layout address_layout
 layout amu_info_window
 layout amu_text_bubble
@@ -4585,6 +4586,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu appointment_menu
+menu bottom_menu
 menu bottom_nav
 menu example_menu
 menu example_menu2
@@ -4592,6 +4594,7 @@ menu menu
 menu search_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap notify
 plurals mtrl_badge_content_description
 raw amu_ballon_gx_prefix
 raw amu_basic_folder
@@ -4687,6 +4690,7 @@ string dummy_content
 string duyuru1
 string duyuru2
 string duyuru3
+string duyuru4
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -4702,11 +4706,13 @@ string google_storage_bucket
 string height_cm
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string hospital
 string icon_content_description
 string in_progress
 string indeterminate
 string item_view_role_description
 string lightingText
+string lightingText2
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4801,6 +4807,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pharmacy
 string place_autocomplete_clear_button
 string place_autocomplete_search_hint
 string places_autocomplete_clear_button
@@ -6029,7 +6036,7 @@ styleable LinearProgressDrawable lpd_inAnimDuration lpd_keepDuration lpd_maxLine
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
+styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

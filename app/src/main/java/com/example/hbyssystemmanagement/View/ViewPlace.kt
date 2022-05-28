@@ -30,7 +30,10 @@ class ViewPlace : AppCompatActivity() {
     lateinit var btnDirection: Button
     lateinit var photo:ImageView
     lateinit var rating_bar:RatingBar
-    lateinit var openWeek:TextView
+    lateinit var phone:TextView
+    lateinit var businessStatus:TextView
+    lateinit var website:TextView
+
     private val PLACE_PICKER_REQUEST = 3
 
 
@@ -45,15 +48,20 @@ class ViewPlace : AppCompatActivity() {
         btnDirection=findViewById(R.id.buttonDirection)
         photo=findViewById(R.id.photo)
         rating_bar=findViewById(R.id.ratingBar2)
-        openWeek=findViewById(R.id.openNowWeek)
+        phone=findViewById(R.id.Telephone)
+        openNow=findViewById(R.id.openNow)
+        businessStatus=findViewById(R.id.BusinessStatus)
+        website=findViewById(R.id.Website)
         mService = Common.getGoogleAPIService()!!
 
 
 
-        openNow.text=""
+
         placeAdress.text=""
         placeName.text=""
-        openWeek.text=""
+        phone.text=""
+        businessStatus.text=""
+
 
         btnShowMap.setOnClickListener(View.OnClickListener {
             var intent= Intent(Intent.ACTION_VIEW, Uri.parse(mPlace!!.result!!.url))
@@ -63,9 +71,9 @@ class ViewPlace : AppCompatActivity() {
         if(Common.currentResults!!.photos != null&& Common.currentResults!!.photos!!.size> 0){
             Picasso.with(this).load(getPhotoOfPlaces(Common.currentResults!!.photos!![0].photo_reference!!,400))
                 .into(photo)
-        }else    {
+        }/*else    {
             photo.setVisibility(View.GONE);
-        }
+        }*/
         if (Common.currentResults!!.rating != null&&!TextUtils.isEmpty(Common.currentResults!!.rating))  {
             rating_bar.setRating((Common.currentResults!!.rating)!!.toFloat());
         }
@@ -79,6 +87,18 @@ class ViewPlace : AppCompatActivity() {
         else    {
             openNow.setVisibility(View.GONE);
         }
+        if (Common.currentResults!!.formatted_phone_number!= null)  {
+            phone.setText("Phone : "+ Common. currentResults!!.formatted_phone_number!!);
+        }
+        else    {
+            website.setVisibility(View.GONE);
+        }
+        if (Common.currentResults!!.website!= null)  {
+            website.setText("Business Status : "+ Common. currentResults!!.website!!);
+        }
+        else    {
+            website.setVisibility(View.GONE);
+        }
         btnDirection.setOnClickListener(View.OnClickListener {
             var intent= Intent(this@ViewPlace, ViewDirections::class.java)
             startActivity(intent)
@@ -91,9 +111,11 @@ class ViewPlace : AppCompatActivity() {
                 override fun onResponse(call: Call<PlaceDetail>, response: Response<PlaceDetail>)
                 {
                     mPlace = response.body()
-
-                    placeAdress.setText(mPlace!!.result!!.formatted_address);
+                    placeAdress.setText("Address: "+mPlace!!.result!!.formatted_address);
                     placeName.setText(mPlace!!.result!!.name);
+                    phone.setText("Phone: "+mPlace!!.result.formatted_phone_number)
+                    businessStatus.setText("Business Status: "+mPlace!!.result.business_status)
+
 
                 }
 

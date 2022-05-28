@@ -116,29 +116,7 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
-        android:layout_height="wrap_content">
-
-        <RadioButton
-            android:id="@+id/creditPay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="48dp"
-            android:text="Credit Cart Payment"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/balancePay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="48dp"
-            android:text="Balance Payment"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-
-
-    </RadioGroup>
+        android:layout_height="wrap_content"/>
 
 
 

@@ -98,6 +98,7 @@
             android:layout_weight="1"
             android:background="@android:color/holo_blue_dark"
             android:drawableTop="@drawable/ic_baseline_cancel_24"
+            android:onClick="Remove"
             android:textColor="#212121"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 

@@ -1,9 +1,12 @@
 <resources>
-    <string name="app_name">Hbys</string>
+
+    <string name="app_name">HBYS</string>
     <string name="open">Open Navigation Drawer</string>
     <string name="close">Close Navigation Drawer</string>
+    <string name="hospital">Hospital</string>
+    <string name="pharmacy">Pharmacy</string>
     <string name="comment"><b>Comment</b></string>
-    <string name="default_web_client_id" translatable="false">677436375215-mb85kaqs6av0i82o12ok4nmgljictm33.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">677436375215-lqrfvijn2452goi1jjo1t0uvcganq7g9.apps.googleusercontent.com</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dummy_button">Dummy Button</string>
@@ -21,9 +24,11 @@
     <string name="calculate_your_bmi">Calculate your BMI</string>
     <string name="your_bmi">Your BMI</string>
     <string name="calculate_bmi_again">Calculate BMI Again</string>
-    <string name="duyuru1">Sağlık Bakanlığına bağlı tüm sağlık kurum ve kuruluşlarına muayene randevu hizmeti sunan Merkezi Hekim Randevu Sistemi (MHRS), gelişmiş teknolojiler ışığında yenilenmeye ve hizmet kalitesini artırmaya devam ediyor.</string>
-    <string name="duyuru2">e-Devlet şifresi olan vatandaşlarımız, MHRS üyeliği bulunmasa bile mhrs.gov.tr adresinden e-Devlet girişiyle de MHRS nin sunduğu hizmetlerden yararlanabilmektedir.</string>
+    <string name="duyuru1">Sağlık Bakanlığına bağlı tüm sağlık kurum ve kuruluşlarına muayene randevu hizmeti sunan Merkezi Hekim Randevu Sistemi (HBYS), gelişmiş teknolojiler ışığında yenilenmeye ve hizmet kalitesini artırmaya devam ediyor.</string>
+    <string name="duyuru2">e-Devlet şifresi olan vatandaşlarımız, HBYS üyeliği bulunmasa bile HBYS.gov.tr adresinden e-Devlet girişiyle de HBYS nin sunduğu hizmetlerden yararlanabilmektedir.</string>
     <string name="title_activity_view_directions">ViewDirections</string>
-    <string name="duyuru3">İhtiyaçları önceliğimiz olan 65 yaş üstü, riskli gebe ve engelli vatandaşlarımız için MHRS de randevu önceliği uygulaması başlatıldı.</string>
-    <string name="lightingText">Bu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (“KVK Kanunu”) “Veri Sorumlusunun Aydınlatma Yükümlülüğü” kenar başlıklı 10 uncu maddesi uyarınca ve KVK Kanunu kapsamında veri sorumlusu olan T.C. Sağlık Bakanlığı (Bakanlık) tarafından, Merkezi Hekim Randevu Sistemi Çağrı Merkezi (MHRS) kullanıcılarına, kullanıcılara ait kişisel veriler hususunda bilgilendirme yapmak amacıyla hazırlanmıştır. KVK Kanunu uyarınca veri sorumlusu sıfatını haiz Bakanlığın merkez adresi “Bilkent Yerleşkesi, Üniversiteler Mah. Dumlupınar Bulvarı 6001. Cad. No:9 Çankaya/Ankara 06800”dir.</string>
+    <string name="duyuru3">Hastaların en kolay şekilde mükemmel doktoru bulmalarını ve randevu almalarını istiyoruz. Hasta yolculuğu keyifli olmalı ve bu yüzden her zaman yanlarındayız: mümkün olan en iyi bakımı bulmalarına yardımcı olmak. Her zaman, her yerde.</string>
+    <string name="duyuru4">Ayrıca doktorların uygulamalarını daha iyi yönetmelerine ve çevrimiçi itibarlarını oluşturmalarına yardımcı oluyoruz. </string>
+    <string name="lightingText">Merkezi Hekim Randevu Sistemi’ndeki kişisel verileriniz KVK Kanunu’nun 28 inci maddesinin ilk fıkrasında yer alan muafiyet halleri saklı kalmak üzere, hiçbir şekilde üçüncü taraflarla paylaşılmamaktadır.</string>
+    <string name="lightingText2">Merkezi Hekim Randevu Sistemi Kullanıcıları KVK Kanunu’nun 11 inci maddesinde düzenlenen haklarını, KVK Kanunu’nun 13 üncü maddesi ve Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ hükümleri çerçevesinde Bakanlığa başvurmak suretiyle kullanabilir. </string>
 </resources>

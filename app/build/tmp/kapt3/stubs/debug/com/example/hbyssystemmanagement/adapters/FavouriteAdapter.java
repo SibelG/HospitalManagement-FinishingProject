@@ -33,6 +33,14 @@ public final class FavouriteAdapter extends android.widget.BaseAdapter {
     java.util.ArrayList<com.example.hbyssystemmanagement.Model.Favourites> p0) {
     }
     
+    @org.jetbrains.annotations.NotNull()
+    @java.lang.Override()
+    public android.view.View getView(int position, @org.jetbrains.annotations.Nullable()
+    android.view.View convertView, @org.jetbrains.annotations.Nullable()
+    android.view.ViewGroup parent) {
+        return null;
+    }
+    
     @java.lang.Override()
     public int getCount() {
         return 0;
@@ -47,13 +55,5 @@ public final class FavouriteAdapter extends android.widget.BaseAdapter {
     @java.lang.Override()
     public long getItemId(int position) {
         return 0L;
-    }
-    
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
-    public android.view.View getView(int position, @org.jetbrains.annotations.Nullable()
-    android.view.View convertView, @org.jetbrains.annotations.Nullable()
-    android.view.ViewGroup parent) {
-        return null;
     }
 }

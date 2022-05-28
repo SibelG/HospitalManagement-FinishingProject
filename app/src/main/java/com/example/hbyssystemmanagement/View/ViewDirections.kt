@@ -3,27 +3,24 @@ package com.example.hbyssystemmanagement.View
 import android.Manifest
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager
-import android.graphics.Color
 import android.location.Location
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import com.example.hbyssystemmanagement.Common.Common
 import com.example.hbyssystemmanagement.Interface.NearByApi
-import com.example.hbyssystemmanagement.Model.MapData
 import com.example.hbyssystemmanagement.R
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.*
-import com.google.gson.Gson
-import okhttp3.OkHttpClient
-import okhttp3.Request
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
+import com.google.android.gms.maps.model.Marker
+import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.Polyline
 
 
 class ViewDirections : AppCompatActivity(), OnMapReadyCallback {
@@ -52,8 +49,8 @@ class ViewDirections : AppCompatActivity(), OnMapReadyCallback {
         }*/
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        buildLocationCallback();
-        createLocationRequest();
+       // buildLocationCallback();
+       // createLocationRequest();
 
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
@@ -71,6 +68,10 @@ class ViewDirections : AppCompatActivity(), OnMapReadyCallback {
         );
     }
 
+    override fun onMapReady(p0: GoogleMap) {
+        TODO("Not yet implemented")
+    }
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -80,7 +81,7 @@ class ViewDirections : AppCompatActivity(), OnMapReadyCallback {
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
-    override fun onMapReady(googleMap: GoogleMap) {
+    /*override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         mMap.uiSettings.isZoomControlsEnabled = true
         if (ActivityCompat.checkSelfPermission(
@@ -291,5 +292,5 @@ class ViewDirections : AppCompatActivity(), OnMapReadyCallback {
         } else {
             true
         }
-    }
+    }*/
 }

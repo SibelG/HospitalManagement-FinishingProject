@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hbyssystemmanagement.Model.Place
 import com.example.hbyssystemmanagement.R
-import com.example.hbyssystemmanagement.View.VisitedPlacesActivity
 
 class PlaceAdapter(var placeList: List<Place>) : RecyclerView.Adapter<PlaceAdapter.PlaceHolder>() {
 

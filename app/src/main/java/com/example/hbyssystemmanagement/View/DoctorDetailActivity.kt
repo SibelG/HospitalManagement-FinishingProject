@@ -117,7 +117,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
             intent.putExtra("doctorName",getDoctorName)
             startActivity(intent)
         })
-        System.out.println("ıııı"+doctorId)
+        System.out.println("ıd"+doctorId)
         toolbar = findViewById(R.id.toolbarName)
         toolbar.title=intent.getStringExtra("doctorName")
         sendMessage.setOnClickListener(View.OnClickListener {
@@ -132,7 +132,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
 
         if (!doctorId!!.isEmpty()) {
                 getData(doctorId!!)
-                //getRating(doctorId!!)
+                getRating(doctorId!!)
 
         }
 
@@ -146,11 +146,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
 
         })
 
-        var favourite=Favourites(doctorId!!, getDoctorImage,getDoctorName,getDoctorSection, Common.currentUser!!.email!!)
-
-
-
-
+        var favourite= Favourites(doctorId!!, getDoctorImage,getDoctorName,getDoctorSection, Common.currentUser!!.email!!)
 
         var  databaseFav= Database(this,null)
         if(databaseFav!!.isFavourite(doctorId, Common.currentUser!!.email))
@@ -170,12 +166,6 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
             }
 
         })
-        val cursor = databaseFav.getAllFavlist()
-        if(cursor.isEmpty()){
-            Log.d("bosss",cursor.toString())
-        }
-
-
 
 
 
@@ -201,8 +191,14 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     for(postSnapshot in snapshot.children){
                         var ratingItem=snapshot.getValue(Rating::class.java)
-                        sum+=Integer.parseInt(ratingItem?.rateValue)
-                        count++
+                        if(ratingItem!=null){
+                            sum+=Integer.parseInt(ratingItem?.rateValue)
+                            count++
+                        }else{
+                            continue
+
+                        }
+
                     }
                     if(count!=0){
                         var avarage:Float=(sum/count).toFloat()
@@ -251,6 +247,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
 
 
     private fun showRating() {
+
         AppRatingDialog.Builder()
             .setPositiveButtonText("Submit")
             .setNegativeButtonText("Cancel")
@@ -280,36 +277,42 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
     override fun onNegativeButtonClicked() {
         rtn!!.cancelLongPress()
     }
-
+    fun EncodeString(string: String): String? {
+        return string.replace(".", ",")
+    }
     override fun onPositiveButtonClicked(rate: Int, comment: String) {
 
 
-
-        val rating = Rating(mAuth.currentUser!!.email!!,
+        var userEmail=EncodeString(mAuth.currentUser!!.email!!)
+        val rating = Rating(
+            userEmail!!,
             doctorId!!, java.lang.String.valueOf(rate), comment)
-        ratingTbl.child(mAuth.currentUser!!.uid).addValueEventListener(object:ValueEventListener{
+        ratingTbl.orderByChild("userEmail").equalTo(userEmail).addListenerForSingleValueEvent(object:ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
-                if(snapshot.child(mAuth.currentUser!!.uid).exists()){
-                    ratingTbl.child(mAuth.currentUser!!.uid).removeValue()
-                    ratingTbl.child(mAuth.currentUser!!.uid).setValue(rating)
+                if(snapshot.exists()){
+                    ratingTbl.removeValue()
+                    //ratingTbl.child(userEmail).setValue(rating)
                 }else{
-                    ratingTbl.child(mAuth.currentUser!!.uid).setValue(rating)
+                    //ratingTbl.child(userEmail).setValue(rating)
+                    ratingTbl!!.push().setValue(rating)
+                        .addOnCompleteListener {
+                            Toast.makeText(
+                                this@DoctorDetailActivity,
+                                "Thank you your rating",
+                                Toast.LENGTH_LONG
+                            ).show()
+                        }
                 }
             }
+
 
             override fun onCancelled(error: DatabaseError) {
                 TODO("Not yet implemented")
             }
 
         })
-        ratingTbl!!.push().setValue(rating)
-            .addOnCompleteListener {
-                Toast.makeText(
-                    this@DoctorDetailActivity,
-                    "Thank you your rating",
-                    Toast.LENGTH_LONG
-                ).show()
-            }
+
+
     }
 }
 

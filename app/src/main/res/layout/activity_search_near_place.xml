@@ -7,12 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".View.SearchNearPlace">
 
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="689dp" />
 
     <com.rey.material.widget.LinearLayout
         android:layout_width="match_parent"
@@ -20,23 +19,29 @@
         android:layout_gravity="bottom">
 
 
-        <com.rey.material.widget.Button
-            android:id="@+id/btnRestorentFind"
+        <Button
+            android:id="@+id/btnPharmacyFind"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
             android:layout_weight="1"
-            android:enabled="false"
-            android:onClick="onRestorentFindClick"
-            android:text="Nearby Pharmacyies" />
+            android:enabled="true"
+            android:onClick="onPharmacyFindClick"
+            android:text="Nearby Pharmacıes"
+            android:textSize="12sp" />
 
-        <com.rey.material.widget.Button
+        <Button
             android:id="@+id/btnHospitalFind"
-            android:onClick="onHospitalsFindClick"
-            android:text="Nearby Hospitals"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
             android:layout_weight="1"
-            android:enabled="false"
-            android:layout_height="wrap_content"/>
+            android:enabled="true"
+            android:onClick="onHospitalsFindClick"
+            android:text="Nearby Hospıtals"
+            android:textSize="12sp" />
 
     </com.rey.material.widget.LinearLayout>
 

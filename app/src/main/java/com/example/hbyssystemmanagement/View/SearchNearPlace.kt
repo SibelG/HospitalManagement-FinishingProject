@@ -36,18 +36,17 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-
 class SearchNearPlace : AppCompatActivity(), OnMapReadyCallback,
     GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
     LocationListener {
     private lateinit var mMap: GoogleMap
     private var mGoogleApiClient: GoogleApiClient? = null
-    private var btnPharmacyFind: Button? = null
-    private var btnHospitalFind: Button? = null
+    private lateinit var btnPharmacyFind: Button
+    private lateinit var btnHospitalFind: Button
     private var mLocationRequest: LocationRequest? = null
     private var location: Location? = null
     private var PROXIMITY_RADIUS = 8000
-    lateinit var mService:NearByApi
+    lateinit var mService: NearByApi
     internal  var currentPlace:NearByApiResponse?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,8 +57,8 @@ class SearchNearPlace : AppCompatActivity(), OnMapReadyCallback,
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission()
         }
-        btnPharmacyFind = findViewById<View>(R.id.btnRestorentFind) as Button
-        btnHospitalFind = findViewById<View>(R.id.btnHospitalFind) as Button
+        btnPharmacyFind = findViewById(R.id.btnPharmacyFind)
+        btnHospitalFind = findViewById(R.id.btnHospitalFind)
 
         //To check google play service available
         if (!isGooglePlayServicesAvailable) {
@@ -121,7 +120,7 @@ class SearchNearPlace : AppCompatActivity(), OnMapReadyCallback,
         mGoogleApiClient!!.connect()
     }
 
-    fun onRestorentFindClick(view: View) {
+    fun onPharmacyFindClick(view: View) {
         findPlaces("pharmacy")
     }
 
@@ -135,78 +134,79 @@ class SearchNearPlace : AppCompatActivity(), OnMapReadyCallback,
         var url=getUrl(location!!.latitude, location!!.longitude,placeType)
         mService.getNearbyPlaces(url)
             .enqueue(object : Callback<NearByApiResponse> {
-            override fun onResponse(
-                call: Call<NearByApiResponse>,
-                response: Response<NearByApiResponse>
-            ) {
-                currentPlace= response.body()!!
-                if(response.isSuccessful){
-                    for (i in 0 until response.body()!!.results!!.size) {
-                        val lat: Double =
-                            response.body()!!.results!![i].geometry!!.location!!.lat!!.toDouble()
-                        val lng: Double =
-                            response.body()!!.results!![i].geometry!!.location!!.lng!!.toDouble()
-                        val placeName: String = response.body()!!.results!![i].name!!
-                        val vicinity: String = response.body()!!.results!![i].vicinity!!
-                        val markerOptions = MarkerOptions()
-                        val latLng = LatLng(lat, lng)
-                        // Location of Marker on Map
-                        markerOptions.position(latLng)
-                        // Title for Marker
-                        markerOptions.title("$placeName : $vicinity")
-                        // Color or drawable for marker
-                        /*if(placeType.equals("hospital"))
-                            markerOptions.icon(
-                                BitmapDescriptorFactory.fromResource(
-                                    R.drawable.ic_baseline_local_hospital_24
+                override fun onResponse(
+                    call: Call<NearByApiResponse>,
+                    response: Response<NearByApiResponse>
+                ) {
+                    currentPlace= response.body()!!
+                    if(response.isSuccessful){
+                        for (i in 0 until response.body()!!.results!!.size) {
+                            val lat: Double =
+                                response.body()!!.results!![i].geometry!!.location!!.lat!!.toDouble()
+                            val lng: Double =
+                                response.body()!!.results!![i].geometry!!.location!!.lng!!.toDouble()
+                            val placeName: String = response.body()!!.results!![i].name!!
+                            val vicinity: String = response.body()!!.results!![i].vicinity!!
+                            val markerOptions = MarkerOptions()
+                            val latLng = LatLng(lat, lng)
+                            // Location of Marker on Map
+                            markerOptions.position(latLng)
+                            // Title for Marker
+                            markerOptions.title("$placeName : $vicinity")
+                            // Color or drawable for marker
+                            /*if(placeType.equals("hospital"))
+                                markerOptions.icon(
+                                    BitmapDescriptorFactory.fromResource(
+                                        R.drawable.ic_baseline_local_hospital_24
+                                    )
                                 )
-                            )
-                        else if(placeType.equals("pharmacy"))
-                            markerOptions.icon(
-                                BitmapDescriptorFactory.fromResource(
-                                    R.drawable.ic_baseline_local_pharmacy_24
+                            else if(placeType.equals("pharmacy"))
+                                markerOptions.icon(
+                                    BitmapDescriptorFactory.fromResource(
+                                        R.drawable.ic_baseline_local_pharmacy_24
+                                    )
                                 )
-                            )
-                        else*/
+                            else*/
                             markerOptions.icon(
                                 BitmapDescriptorFactory.defaultMarker(
                                     BitmapDescriptorFactory.HUE_BLUE
                                 )
                             )
-                        markerOptions.snippet(i.toString())
+                            markerOptions.snippet(i.toString())
 
 
 
 
-                        // add marker
-                        mMap!!.addMarker(markerOptions)
-                        // move map camera
-                        mMap!!.moveCamera(CameraUpdateFactory.newLatLng(latLng))
-                        mMap!!.animateCamera(CameraUpdateFactory.zoomTo(13f))
+                            // add marker
+                            mMap!!.addMarker(markerOptions)
+                            // move map camera
+                            mMap!!.moveCamera(CameraUpdateFactory.newLatLng(latLng))
+                            mMap!!.animateCamera(CameraUpdateFactory.zoomTo(13f))
+                        }
+
                     }
-
-                }
                 }
 
 
 
-            override fun onFailure(call: Call<NearByApiResponse>, t: Throwable) {
-                Log.d("onFailure", t.toString())
-                t.printStackTrace()
-                PROXIMITY_RADIUS += 10000
-            }
+                override fun onFailure(call: Call<NearByApiResponse>, t: Throwable) {
+                    Log.d("onFailure", t.toString())
+                    t.printStackTrace()
+                    PROXIMITY_RADIUS += 10000
+                }
 
 
-        })
+            })
     }
+
 
     private fun getUrl(latitude: Double, longitude: Double, placeType: String):String{
         val googlePlaceUrl=StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json")
         googlePlaceUrl.append("?location=$latitude,$longitude")
-        googlePlaceUrl.append("&radius=$PROXIMITY_RADIUS")
+        googlePlaceUrl.append("&radius="+10000)
         googlePlaceUrl.append("&type=$placeType")
-        googlePlaceUrl.append("&key=AIzaSyA_9QOjL7fkLpF4mDnRjkv0LNz9dqO4x-A")
-
+        googlePlaceUrl.append("&key="+getResources().getString(R.string.browser_key))
+        Log.d("getUrl", googlePlaceUrl.toString())
         return googlePlaceUrl.toString()
 
     }
@@ -328,4 +328,233 @@ class SearchNearPlace : AppCompatActivity(), OnMapReadyCallback,
     companion object {
         const val MY_PERMISSIONS_REQUEST_LOCATION = 99
     }
-}
+}/*
+class SearchNearPlace : FragmentActivity(), OnMapReadyCallback {
+    private var mMap: GoogleMap? = null
+    private var latitude = 0.0
+    private var longitude = 0.0
+    private var mLastLocation: Location? = null
+    private var mMarker: Marker? = null
+    private var mLocationRequest: LocationRequest? = null
+    var mService: NearByApi? = null
+    var currentPlaces: NearByApiResponse? = null
+    var fusedLocationProviderClient: FusedLocationProviderClient? = null
+    var locationCallback: LocationCallback? = null
+    private lateinit var btnPharmacyFind: Button
+    private lateinit var btnHospitalFind: Button
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_maps)
+        val mapFragment = supportFragmentManager
+            .findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment!!.getMapAsync(this)
+        mService = Common.getGoogleAPIService()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            checkLocationPermission()
+        }
+
+
+        /*val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.action_hospital -> nearByPlaces("hospital")
+                R.id.action_pharmacy -> nearByPlaces("pharmacy")
+
+            }
+            true
+        }*/
+
+        buildLocationRequest()
+        buildLocationCallback()
+        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
+        fusedLocationProviderClient!!.requestLocationUpdates(
+            mLocationRequest,
+            locationCallback,
+            Looper.myLooper()
+        )
+    }
+
+    override fun onStop() {
+        fusedLocationProviderClient!!.removeLocationUpdates(locationCallback)
+        super.onStop()
+    }
+
+    fun onPharmacyFindClick(view: View) {
+        nearByPlaces("pharmacy")
+    }
+
+    fun onHospitalsFindClick(view: View) {
+        nearByPlaces("hospital")
+    }
+
+    private fun buildLocationCallback() {
+        locationCallback = object : LocationCallback() {
+            override fun onLocationResult(locationResult: LocationResult) {
+                super.onLocationResult(locationResult)
+                mLastLocation = locationResult.lastLocation
+                if (mMarker != null) {
+                    mMarker!!.remove()
+                }
+                latitude = mLastLocation!!.getLatitude()
+                longitude = mLastLocation!!.getLongitude()
+                val latLng = LatLng(latitude, longitude)
+                val markerOptions = MarkerOptions().position(latLng)
+                    .title("Your Location")
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE))
+                mMarker = mMap!!.addMarker(markerOptions)
+                mMap!!.moveCamera(CameraUpdateFactory.newLatLng(latLng))
+                mMap!!.animateCamera(CameraUpdateFactory.zoomTo(11f))
+            }
+        }
+    }
+
+    @SuppressLint("RestrictedApi")
+    private fun buildLocationRequest() {
+        mLocationRequest = LocationRequest()
+        mLocationRequest!!.interval = 1000
+        mLocationRequest!!.fastestInterval = 1000
+        mLocationRequest!!.smallestDisplacement = 10f
+        mLocationRequest!!.priority = LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY
+    }
+
+    private fun nearByPlaces(placeType: String) {
+        mMap!!.clear()
+        val url = getUrl(latitude, longitude, placeType)
+        mService!!.getNearbyPlaces(url)
+            .enqueue(object : Callback<NearByApiResponse> {
+                override fun onResponse(call: Call<NearByApiResponse>, response: Response<NearByApiResponse>) {
+                    currentPlaces = response.body()
+                    if (response.isSuccessful()) {
+                        for (i in 0 until response.body()!!.results!!.size) {
+                            val markerOptions = MarkerOptions()
+                            val googlePlaces: Results = response.body()!!.results!!.get(i)
+                            val lat: Double =
+                                googlePlaces.geometry!!.location.lat.toDouble()
+                            val lng: Double =
+                                googlePlaces.geometry.location.lng.toDouble()
+                            val placeName: String = googlePlaces.name!!
+                            val vicinity: String = googlePlaces.vicinity!!
+                            val latLng = LatLng(lat, lng)
+                            markerOptions.position(latLng)
+                            markerOptions.title(placeName)
+                            if (placeType == "hospital") {
+                                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_hospital))
+                            } else if (placeType == "pharmacy") {
+                                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_pharmacy))
+                            } else {
+                                markerOptions.icon(
+                                    BitmapDescriptorFactory.defaultMarker(
+                                        BitmapDescriptorFactory.HUE_RED
+                                    )
+                                )
+                            }
+                            markerOptions.snippet(i.toString())
+                            mMap!!.addMarker(markerOptions)
+                            mMap!!.moveCamera(CameraUpdateFactory.newLatLng(latLng))
+                            mMap!!.animateCamera(CameraUpdateFactory.zoomTo(11f))
+                        }
+                    }
+                }
+
+                override fun onFailure(call: Call<NearByApiResponse>, t: Throwable) {}
+            })
+    }
+
+    private fun getUrl(latitude: Double, longitude: Double, placeType: String): String {
+        val googlePlacesUrl =
+            StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json?")
+        googlePlacesUrl.append("location=$latitude,$longitude")
+        googlePlacesUrl.append("&radius=" + 10000)
+        googlePlacesUrl.append("&type=$placeType")
+        googlePlacesUrl.append("&sensor=true")
+        googlePlacesUrl.append("&key=" + resources.getString(R.string.browser_key))
+        Log.d("getUrl", googlePlacesUrl.toString())
+        return googlePlacesUrl.toString()
+    }
+
+    private fun checkLocationPermission(): Boolean {
+        return if (ContextCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(
+                    this,
+                    Manifest.permission.ACCESS_FINE_LOCATION
+                )
+            ) {
+                ActivityCompat.requestPermissions(
+                    this, arrayOf(
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                    ), MY_PERMISSION_CODE
+                )
+            } else {
+                ActivityCompat.requestPermissions(
+                    this, arrayOf(
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                    ), MY_PERMISSION_CODE
+                )
+            }
+            false
+        } else {
+            true
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<String?>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        when (requestCode) {
+            MY_PERMISSION_CODE -> {
+                if (grantResults.size > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    if (ContextCompat.checkSelfPermission(
+                            this,
+                            Manifest.permission.ACCESS_FINE_LOCATION
+                        ) == PackageManager.PERMISSION_GRANTED
+                    ) {
+                        mMap!!.isMyLocationEnabled = true
+                        buildLocationRequest()
+                        buildLocationCallback()
+                        fusedLocationProviderClient =
+                            LocationServices.getFusedLocationProviderClient(this)
+                        fusedLocationProviderClient!!.requestLocationUpdates(
+                            mLocationRequest,
+                            locationCallback,
+                            Looper.myLooper()
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    override fun onMapReady(googleMap: GoogleMap?) {
+        mMap = googleMap
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.ACCESS_FINE_LOCATION
+                ) == PackageManager.PERMISSION_GRANTED
+            ) {
+                mMap!!.isMyLocationEnabled = true
+            }
+        } else {
+            mMap!!.isMyLocationEnabled = true
+        }
+        mMap!!.setOnMarkerClickListener { marker ->
+            if (marker.snippet != null) {
+                Common.currentResults = currentPlaces!!.results!!.get(marker.snippet.toInt())
+                startActivity(Intent(this@SearchNearPlace, ViewPlace::class.java))
+            }
+            true
+        }
+    }
+
+    companion object {
+        private const val MY_PERMISSION_CODE = 1000
+    }
+}*/
