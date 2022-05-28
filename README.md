@@ -76,6 +76,8 @@ ile bulunmuş ve yere ait detaylar
 yer almaktadır.
 
 ![image](https://user-images.githubusercontent.com/46397935/168687129-344e49e3-9192-4e8f-b71c-547cad95cb2d.png)
+![image](https://user-images.githubusercontent.com/46397935/170821401-9beb2629-f80c-4cd0-8d38-53c8a9f46bc1.png)
+
 
 ![image](https://user-images.githubusercontent.com/46397935/168691144-6158ac31-bbe4-4ff2-9b22-cec77624e9c0.png)
 
