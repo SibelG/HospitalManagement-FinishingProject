@@ -1,0 +1,7 @@
+com.example.hbyssystemmanagement.test.app-androidTest-0 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\build\generated\res\resValues\androidTest\debug
+com.example.hbyssystemmanagement.test.app-androidTest-1 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\build\generated\res\rs\androidTest\debug
+com.example.hbyssystemmanagement.test.app-mergeDebugAndroidTestResources-2 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.hbyssystemmanagement.test.app-mergeDebugAndroidTestResources-3 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.hbyssystemmanagement.test.app-merged_res-4 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\build\intermediates\merged_res\debugAndroidTest
+com.example.hbyssystemmanagement.test.app-androidTest-5 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\src\androidTest\res
+com.example.hbyssystemmanagement.test.app-androidTestDebug-6 C:\Users\sblgn\AndroidStudioProjects\HbysSystemManagement\app\src\androidTestDebug\res

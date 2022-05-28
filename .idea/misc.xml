@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_local_hospital_24.xml" value="0.135" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/ic_baseline_local_pharmacy_24.xml" value="0.135" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/drawable/nav_selector.xml" value="0.135" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/a.xml" value="0.18984375" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_doctor_detail.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/layout/activity_search_near_place.xml" value="0.1625" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/sblgn/AndroidStudioProjects/HbysSystemManagement/app/src/main/res/menu/search_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
