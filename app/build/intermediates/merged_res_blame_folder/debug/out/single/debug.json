@@ -1,490 +1,470 @@
 [
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_section.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\section.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_message_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/message_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_remove_red_eye_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_done_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_done_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_logo.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/logo.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_show_comment.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_show_comment.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_search.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_search.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_security_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_security_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_senses.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_senses.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-hdpi_notify.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-hdpi/notify.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_local_pharmacy_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_local_pharmacy_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_message_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\message_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_remove_red_eye_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_linearborder.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\linearborder.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_nav_headerhome.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_nav_headerhome.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_dogumhane.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\dogumhane.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_view_place.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_view_place.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_girl.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_girl.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_security_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_security_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_about.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_about.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_access_time_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_person_search_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_person_search_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_favourite.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_favourite.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_favourite.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_local_hospital_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_local_hospital_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fav_doctor_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fav_doctor_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_after_notification.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_after_notification.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_show_comment.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_show_comment.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-hdpi_notify.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-hdpi\\notify.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_kvvk.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/kvvk.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_girl.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_girl.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_comment.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\comment.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_dietician.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/dietician.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_appointment.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_appointment.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_doctor_blank.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_doctor_blank.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_comment_layout_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\comment_layout_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_tab.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/tab.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_view_appointment.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_view_appointment.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_content.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_content.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_visited_places.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_visited_places.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_share_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_sesses.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\sesses.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_after_notification.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_after_notification.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_dietician.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\dietician.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_visited_list.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_visited_list.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\menu_appointment_menu.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\menu\\appointment_menu.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_cancel_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_cancel_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_sign_in.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_map.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/map.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_nav_selector.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\nav_selector.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_view_directions.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_view_directions.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_nav_selector.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/nav_selector.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_blank.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_blank.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_my_appointment_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/my_appointment_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_recycler_row.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\recycler_row.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_edit_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_search.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_search.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_boy_blur.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_boy_blur.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_emergency.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\emergency.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/menu_bottom_nav.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/menu/bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_the_nearest_hospital.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_the_nearest_hospital.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_question.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/question.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_doctor_list.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_doctor_list.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\font_brandomi_random.ttf.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\font\\brandomi_random.ttf"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_section.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/section.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_favourite_row.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\favourite_row.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/menu_search_menu.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/menu/search_menu.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_search_near_place.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_search_near_place.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_home_work_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_home_work_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_address_layout.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/address_layout.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_notify_icon.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\notify_icon.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_local_hospital_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_local_hospital_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_done_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_done_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_cancel_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_arrow_back_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_the_nearest_hospital.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_the_nearest_hospital.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fav_doctor_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fav_doctor_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_comment.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/comment.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_delete_black_24dp.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_delete_black_24dp.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_section_list.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_section_list.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_phone_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_phone_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_about.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_about.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_button_back.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/button_back.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_favorite_border_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_favorite_border_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_sesses.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/sesses.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_home.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_exit_to_app_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_edit_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_edit_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_comment_layout_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/comment_layout_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_location_picker_dialog.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_location_picker_dialog.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_horizontal_bar_content.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\horizontal_bar_content.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_appointment_view_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/appointment_view_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_boy.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_boy.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_notify_icon.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/notify_icon.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_background.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\background.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_appointment.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/appointment.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_buttonback.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\buttonback.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_bg.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/bg.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_send_message.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_send_message.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_section_list.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_section_list.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_maps.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_maps.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_place_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_place_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_emr.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\emr.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_doctor_detail.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_doctor_detail.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_favorite_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/menu_menu.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/menu/menu.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_view_directions.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_view_directions.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_place_detail.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_place_detail.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_buttonback.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/buttonback.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_reset_password.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_reset_password.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_doctor_icon.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/doctor_icon.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_tab.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\tab.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_doctor_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/doctor_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_logo.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\logo.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_marker_hospital.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/marker_hospital.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_senses.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_senses.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_access_time_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_access_time_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_background.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/background.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_content.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_content.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_settings_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_marker_pharmacy.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\marker_pharmacy.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_doctor_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\doctor_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/menu_appointment_menu.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/menu/appointment_menu.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_send_message.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_send_message.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_about.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\about.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_delete_black_24dp.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_delete_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_section_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\section_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_marker_pharmacy.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/marker_pharmacy.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_share_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_share_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\menu_bottom_nav.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\menu\\bottom_nav.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_home.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_emergence.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\emergence.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_emergency.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/emergency.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_date.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_date.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_nav_headerhome.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_nav_headerhome.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_place_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_place_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_shopping_cart_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_boy_blur.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_boy_blur.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_view_place.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_view_place.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_main.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_girl_blur.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_girl_blur.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_marker_hospital.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\marker_hospital.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_location_picker_dialog.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_location_picker_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_address_layout.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\address_layout.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_perm_contact_calendar_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_perm_contact_calendar_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/font_brandomi_random.ttf.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/font/brandomi_random.ttf"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_text.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_text.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_shopping_cart_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_shopping_cart_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_phone_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_phone_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_exit_to_app_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_exit_to_app_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_doctor_list.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_doctor_list.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_about.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/about.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_button_back.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\button_back.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_main.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_person_search_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_person_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_menu_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_menu_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_maps.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_appointment_view_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\appointment_view_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_section_item.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/section_item.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\menu\\menu.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_message_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_message_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_settings_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_settings_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_favourite_row.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/favourite_row.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_place_detail.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_place_detail.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_view_appointment.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_view_appointment.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_my_appointment_item.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\my_appointment_item.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_text.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_text.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_doctor_icon.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\doctor_icon.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_question.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\question.png"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_bg.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\bg.png"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_google_button.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\google_button.png"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ear_nose.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ear_nose.jpg"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_girl_blur.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_girl_blur.xml"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\menu_search_menu.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\menu\\search_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_appointment.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\appointment.jpg"
-    },
-    {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_map.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\map.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_emergence.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/emergence.png"
     },
     {
         "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_search_near_place.xml.flat",
         "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_search_near_place.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_perm_contact_calendar_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_perm_contact_calendar_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_home_work_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_home_work_24.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_visited_list.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_visited_list.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_fragment_blank.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/fragment_blank.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_activity_doctor_detail.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\activity_doctor_detail.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_recycler_row.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/recycler_row.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_kvvk.jpg.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\kvvk.jpg"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_doctor_blank.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_doctor_blank.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_horizontal_bar_content.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/horizontal_bar_content.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_fragment_date.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\fragment_date.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_boy.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_boy.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_message_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_message_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable-v24_doctormenu.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable-v24/doctormenu.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable_ic_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable\\ic_baseline_search_24.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_google_button.png.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/google_button.png"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\layout_a.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\layout\\a.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ear_nose.jpg.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ear_nose.jpg"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_visited_places.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_visited_places.xml"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\drawable-v24_doctormenu.png.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\drawable-v24\\doctormenu.png"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-merged_res-68:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\sblgn\\.gradle\\daemon\\7.3.3\\com.example.hbyssystemmanagement.app-main-70:\\menu\\bottom_menu.xml"
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_linearborder.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/linearborder.xml"
+    },
+    {
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/drawable_ic_baseline_local_pharmacy_24.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/drawable/ic_baseline_local_pharmacy_24.xml"
+    },
+    {
+        "merged": "com.example.hbyssystemmanagement.app-merged_res-68:/layout_activity_appointment.xml.flat",
+        "source": "com.example.hbyssystemmanagement.app-main-70:/layout/activity_appointment.xml"
     }
 ]

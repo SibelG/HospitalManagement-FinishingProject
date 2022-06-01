@@ -3400,12 +3400,10 @@ drawable dietician
 drawable dmax_spots_spot
 drawable doctor_icon
 drawable doctormenu
-drawable dogumhane
 drawable ear_nose
 drawable edit_text_background
 drawable emergence
 drawable emergency
-drawable emr
 drawable google_button
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3611,14 +3609,12 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
-id action_hospital
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_pharmacy
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3671,7 +3667,6 @@ id bookAppointment_selectDate
 id bookAppointment_selectedDate
 id bottom
 id bottomNavigationView
-id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -4392,7 +4387,6 @@ interpolator mtrl_fast_out_linear_in
 interpolator mtrl_fast_out_slow_in
 interpolator mtrl_linear
 interpolator mtrl_linear_out_slow_in
-layout a
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
 layout abc_action_menu_item_layout
@@ -4586,7 +4580,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu appointment_menu
-menu bottom_menu
 menu bottom_nav
 menu example_menu
 menu example_menu2

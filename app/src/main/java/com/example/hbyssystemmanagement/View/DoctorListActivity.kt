@@ -172,45 +172,6 @@ class DoctorListActivity : AppCompatActivity() {
                 })
 
     }
-/*else {
-
-            val firebaseSearchQuery = doctorRef.orderByChild("Name")
-
-            FirebaseRecyclerAdapter = object : FirebaseRecyclerAdapter<Doctor, DoctorViewHolder>(
-
-                Doctor::class.java,
-                R.layout.doctor_item,
-                DoctorViewHolder::class.java,
-                firebaseSearchQuery
-
-
-            ) {
-                override fun populateViewHolder(viewHolder: DoctorViewHolder, model: Doctor?, position: Int) {
-
-
-                    viewHolder.doctorName.setText(model?.Name)
-                    viewHolder.doctorSection.setText(model?.Section)
-                    Picasso.get().load(model?.Image).into(viewHolder.doctorImage)
-
-                }
-
-            }
-
-            recyclerview.adapter = FirebaseRecyclerAdapter
-
-        }*/
-
-
-
-    // // View Holder Class
-
-   /* class DoctorViewHolder(var mview : View) : RecyclerView.ViewHolder(mview) {
-        var doctorName: TextView =mview.findViewById(R.id.doctorName)
-        var doctorSection: TextView =mview.findViewById(R.id.doctorBranch)
-        var doctorImage: ImageView? = mview.findViewById(R.id.doctorImage)
-    }*/
-
-
 
 }
 

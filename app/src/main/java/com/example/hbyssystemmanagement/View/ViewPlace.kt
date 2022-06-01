@@ -56,7 +56,6 @@ class ViewPlace : AppCompatActivity() {
 
 
 
-
         placeAdress.text=""
         placeName.text=""
         phone.text=""
@@ -99,10 +98,10 @@ class ViewPlace : AppCompatActivity() {
         else    {
             website.setVisibility(View.GONE);
         }
-        btnDirection.setOnClickListener(View.OnClickListener {
+        /*btnDirection.setOnClickListener(View.OnClickListener {
             var intent= Intent(this@ViewPlace, ViewDirections::class.java)
             startActivity(intent)
-        })
+        })*/
         mService.getDetailPlace(getPlaceDetailUrl(Common.currentResults!!.place_id!!)!!)
             .enqueue(object: Callback<PlaceDetail> {
 
@@ -113,8 +112,9 @@ class ViewPlace : AppCompatActivity() {
                     mPlace = response.body()
                     placeAdress.setText("Address: "+mPlace!!.result!!.formatted_address);
                     placeName.setText(mPlace!!.result!!.name);
-                    phone.setText("Phone: "+mPlace!!.result.formatted_phone_number)
+                    //phone.setText("Phone: "+mPlace!!.result.formatted_phone_number)
                     businessStatus.setText("Business Status: "+mPlace!!.result.business_status)
+                    website.setText("Webcite:"+ mPlace!!.result.website)
 
 
                 }

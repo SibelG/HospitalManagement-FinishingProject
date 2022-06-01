@@ -132,7 +132,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
 
         if (!doctorId!!.isEmpty()) {
                 getData(doctorId!!)
-                getRating(doctorId!!)
+                //getRating(doctorId!!)
 
         }
 
@@ -291,7 +291,7 @@ class DoctorDetailActivity : AppCompatActivity(), RatingDialogListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if(snapshot.exists()){
                     ratingTbl.removeValue()
-                    //ratingTbl.child(userEmail).setValue(rating)
+                    ratingTbl.child(userEmail).setValue(rating)
                 }else{
                     //ratingTbl.child(userEmail).setValue(rating)
                     ratingTbl!!.push().setValue(rating)
