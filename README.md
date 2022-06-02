@@ -12,6 +12,9 @@ Firebase ve Google ile Authentication yapılmıştır.
 
 ![image](https://user-images.githubusercontent.com/46397935/168470560-f197cc42-3350-4ca9-9c11-185dde7bdd90.png)
 
+![image](https://user-images.githubusercontent.com/46397935/171574261-8ae06976-b33c-43f2-a5a8-248f277d1751.png)
+
+
 ## Home Screen
 Navigation Drawer kullanılmıştır.Beş veya daha
 fazla üst düzey hedefe sahip uygulamalar
