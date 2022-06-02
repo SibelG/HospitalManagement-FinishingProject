@@ -14,7 +14,7 @@ Firebase ve Google ile Authentication yapılmıştır.
 
 ## Firebase RealtimeDatabase
 
-![image](https://user-images.githubusercontent.com/46397935/171574261-8ae06976-b33c-43f2-a5a8-248f277d1751.png)
+![image](https://user-images.githubusercontent.com/46397935/171577080-7a2aa49b-7ad9-4872-a357-36f4a1d96bd9.png)
 
 
 ## Home Screen
