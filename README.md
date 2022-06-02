@@ -69,7 +69,7 @@ Randevu alındığındakullanıcıya bildirim
 gönderilir. 
 
 ![image](https://user-images.githubusercontent.com/46397935/168470447-1e469059-d430-400f-90f1-800466f73f47.png)
-![image](https://user-images.githubusercontent.com/46397935/171597456-d1f9e762-7cc7-4d67-96b2-ab85bbdbadf1.png)
+![WhatsApp Image 2022-06-02 at 12 13 05](https://user-images.githubusercontent.com/46397935/171597796-2d1fd1a9-422a-468b-a4e5-a2396e0c99ac.jpeg)
 
 
 ## My Appointments Screen
