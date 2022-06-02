@@ -20,6 +20,8 @@ Firebase ve Google ile Authentication yapılmıştır.
 
 ![image](https://user-images.githubusercontent.com/46397935/171583740-f411b7f8-b044-43c0-a69c-b703f83b2227.png)
 
+![image](https://user-images.githubusercontent.com/46397935/171584249-f5cb5415-4c28-4be3-b82f-7c5fc08e8c1c.png)
+
 
 ## SQLite Database
 
