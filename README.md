@@ -31,7 +31,6 @@ hedefler arasında hızlı gezinme
 -Şifre İşlemleri
 -Çıkış
 
-![WhatsApp Image 2022-06-02 at 10 21 07](https://user-images.githubusercontent.com/46397935/171576575-4a759033-6f95-4911-9d8c-9a552c3e046f.jpeg)
 
 ![image](https://user-images.githubusercontent.com/46397935/168470876-6d748ecb-a5a1-4470-9666-aa2a94b2ae04.png)
 
