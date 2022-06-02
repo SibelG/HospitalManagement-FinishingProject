@@ -31,6 +31,9 @@ hedefler arasında hızlı gezinme
 -Şifre İşlemleri
 -Çıkış
 
+![image](https://user-images.githubusercontent.com/46397935/171575745-b5f07651-9927-49ad-9d80-5e842d4ae1f4.png)
+
+
 ![image](https://user-images.githubusercontent.com/46397935/168470876-6d748ecb-a5a1-4470-9666-aa2a94b2ae04.png)
 
 
