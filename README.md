@@ -16,16 +16,6 @@ Firebase ve Google ile Authentication yapılmıştır.
 
 ![image](https://user-images.githubusercontent.com/46397935/171577080-7a2aa49b-7ad9-4872-a357-36f4a1d96bd9.png)
 
-![image](https://user-images.githubusercontent.com/46397935/171583575-d3a91fa8-60fc-4144-b267-2e2259864471.png)
-
-![image](https://user-images.githubusercontent.com/46397935/171583740-f411b7f8-b044-43c0-a69c-b703f83b2227.png)
-
-![image](https://user-images.githubusercontent.com/46397935/171584249-f5cb5415-4c28-4be3-b82f-7c5fc08e8c1c.png)
-
-![image](https://user-images.githubusercontent.com/46397935/171585975-1789cbce-3519-4191-adad-9689d209607a.png)
-
-
-
 ## SQLite Database
 
 ![image](https://user-images.githubusercontent.com/46397935/171579739-d5de3da0-d5aa-49d9-8d28-14e271bb4d8b.png)
