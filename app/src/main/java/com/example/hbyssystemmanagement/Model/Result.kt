@@ -33,7 +33,7 @@ class Result {
 
      val id: String? = null
 
-     lateinit var  photos: Array<Photos>
+     val  photos: Array<Photos>?=null
 
      val vicinity: String? = null
 

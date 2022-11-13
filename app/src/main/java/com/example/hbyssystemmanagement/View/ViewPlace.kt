@@ -3,7 +3,6 @@ package com.example.hbyssystemmanagement.View
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.text.TextUtils
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -60,48 +59,60 @@ class ViewPlace : AppCompatActivity() {
         placeName.text=""
         phone.text=""
         businessStatus.text=""
+        website.text=""
+
 
 
         btnShowMap.setOnClickListener(View.OnClickListener {
             var intent= Intent(Intent.ACTION_VIEW, Uri.parse(mPlace!!.result!!.url))
             startActivity(intent)
         })
-
-        if(Common.currentResults!!.photos != null&& Common.currentResults!!.photos!!.size> 0){
+        /*if(Common.currentResults!!.photos != null&& Common.currentResults!!.photos!!.size> 0){
             Picasso.with(this).load(getPhotoOfPlaces(Common.currentResults!!.photos!![0].photo_reference!!,400))
                 .into(photo)
-        }/*else    {
+        }else    {
             photo.setVisibility(View.GONE);
         }*/
-        if (Common.currentResults!!.rating != null&&!TextUtils.isEmpty(Common.currentResults!!.rating))  {
+        if (Common.currentResults!!.photos != null && Common.currentResults!!.photos!!.size > 0) {
+            Picasso.with(this)
+                .load(
+                    getPhotoOfPlaces(
+                        Common.currentResults!!.photos!!.get(0).photo_reference, 400
+                    )
+                )
+                .placeholder(R.drawable.ic_image_black_24dp)
+                .error(R.drawable.ic_error_black_24dp)
+                .into(photo)
+        }
+        /*if (Common.currentResults!!.rating != null&&!TextUtils.isEmpty(Common.currentResults!!.rating))  {
             rating_bar.setRating((Common.currentResults!!.rating)!!.toFloat());
         }
         else    {
             rating_bar.setVisibility(View.GONE);
         }
 
+
+        */
         if (Common.currentResults!!.opening_hours != null)  {
-            openNow.setText("Open Now : "+ Common. currentResults!!.opening_hours!!.open_now);
+            if(Common.currentResults!!.opening_hours!!.open_now=="true")
+                openNow.setText("Open Now : "+ "Open")
+            else
+                openNow.setText("Open Now : "+ "Close")
+
         }
         else    {
             openNow.setVisibility(View.GONE);
         }
-        if (Common.currentResults!!.formatted_phone_number!= null)  {
-            phone.setText("Phone : "+ Common. currentResults!!.formatted_phone_number!!);
+        /*if (Common.currentResults!!.website!= null)  {
+            website.setText("Website : "+ Common. currentResults!!.website!!);
         }
         else    {
             website.setVisibility(View.GONE);
-        }
-        if (Common.currentResults!!.website!= null)  {
-            website.setText("Business Status : "+ Common. currentResults!!.website!!);
-        }
-        else    {
-            website.setVisibility(View.GONE);
-        }
-        /*btnDirection.setOnClickListener(View.OnClickListener {
-            var intent= Intent(this@ViewPlace, ViewDirections::class.java)
+        }*/
+        btnDirection.setOnClickListener(View.OnClickListener {
+            var intent= Intent(this@ViewPlace, Direction::class.java)
             startActivity(intent)
-        })*/
+        })
         mService.getDetailPlace(getPlaceDetailUrl(Common.currentResults!!.place_id!!)!!)
             .enqueue(object: Callback<PlaceDetail> {
 
@@ -112,9 +123,15 @@ class ViewPlace : AppCompatActivity() {
                     mPlace = response.body()
                     placeAdress.setText("Address: "+mPlace!!.result!!.formatted_address);
                     placeName.setText(mPlace!!.result!!.name);
-                    //phone.setText("Phone: "+mPlace!!.result.formatted_phone_number)
+                    phone.setText("Phone: "+mPlace!!.result.formatted_phone_number)
                     businessStatus.setText("Business Status: "+mPlace!!.result.business_status)
-                    website.setText("Webcite:"+ mPlace!!.result.website)
+                    //"
+                    // Common.currentResults!!.website= mPlace!!.result.website!!
+                    website.setText("Website:"+ mPlace!!.result.website)
+                    rating_bar.rating= mPlace!!.result.rating!!.toFloat()
+                    //openNow.setText("OpenNow:"+ mPlace!!.result.opening_hours!!.open_now)
+
+
 
 
                 }
@@ -123,6 +140,7 @@ class ViewPlace : AppCompatActivity() {
                     TODO("Not yet implemented")
                 }
             });
+
 
     }
 

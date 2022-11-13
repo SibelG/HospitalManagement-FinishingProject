@@ -3434,8 +3434,10 @@ drawable ic_boy
 drawable ic_boy_blur
 drawable ic_clock_black_24dp
 drawable ic_delete_black_24dp
+drawable ic_error_black_24dp
 drawable ic_girl
 drawable ic_girl_blur
+drawable ic_image_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3688,7 +3690,6 @@ id buffer
 id butt
 id button
 id button2
-id button3
 id buttonBack
 id buttonDirection
 id buttonPanel
@@ -4225,9 +4226,6 @@ id textView
 id textView11
 id textView12
 id textView2
-id textView3
-id textView4
-id textView5
 id textView6
 id textView7
 id textView9
@@ -4418,6 +4416,7 @@ layout abc_tooltip
 layout activity_after_notification
 layout activity_appointment
 layout activity_content
+layout activity_direction
 layout activity_doctor_detail
 layout activity_doctor_list
 layout activity_favourite

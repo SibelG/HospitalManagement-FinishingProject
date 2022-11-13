@@ -6,7 +6,7 @@ package com.example.hbyssystemmanagement.Model
 
 class Results {
 
-        internal lateinit var photos: Array<Photos>
+        internal var photos: Array<Photos>?=null
 
         private val id: String? = null
 

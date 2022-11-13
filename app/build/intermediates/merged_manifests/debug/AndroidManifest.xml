@@ -46,6 +46,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.HbysSystemManagement" >
         <activity
+            android:name="com.example.hbyssystemmanagement.Direction"
+            android:exported="false" />
+        <activity
             android:name="com.example.hbyssystemmanagement.View.afterNotification"
             android:exported="false" />
         <activity
@@ -63,11 +66,10 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <!--
-            <meta-data
+ <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         -->
-
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />

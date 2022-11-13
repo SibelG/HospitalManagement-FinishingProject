@@ -4,7 +4,7 @@ class OpeningHours {
 
 
 
-    val open_now: String=""
+    var open_now: String=""
 
     val weekday_text: Array<String>?=null
 }

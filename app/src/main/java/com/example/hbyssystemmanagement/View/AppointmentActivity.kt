@@ -16,9 +16,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.cardview.widget.CardView
 import com.example.hbyssystemmanagement.Common.Common
 import com.example.hbyssystemmanagement.Interface.ApiInterface
-import com.example.hbyssystemmanagement.Model.Data
-import com.example.hbyssystemmanagement.Model.DataMessage
-import com.example.hbyssystemmanagement.Model.MyResponse
 import com.example.hbyssystemmanagement.Model.Token
 import com.example.hbyssystemmanagement.R
 import com.example.hbyssystemmanagement.Remote.RetrofitClient
@@ -29,9 +26,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.iid.FirebaseInstanceId
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.util.*
 
 
@@ -563,7 +557,7 @@ class AppointmentActivity : AppCompatActivity(), View.OnClickListener {
         manager.notify(notoficationId, notificationBuilder.build())
     }
 
-    private fun sendNotification(usertoken:String,title: String,message: String){
+   /* private fun sendNotification(usertoken:String,title: String,message: String){
         var data=Data(title,message)
         var sender= DataMessage(data,usertoken)
         mApiInterface!!.sendNotification(sender)!!.enqueue(object : Callback<MyResponse?> {
@@ -615,7 +609,7 @@ class AppointmentActivity : AppCompatActivity(), View.OnClickListener {
         UpdateToken()
 
 
-    }
+    }*/
     private fun setColorGreen(i: Int) {
         when (i) {
             1 -> c1!!.setCardBackgroundColor(Color.GREEN)
