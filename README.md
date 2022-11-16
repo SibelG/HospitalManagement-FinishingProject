@@ -33,6 +33,8 @@ hedefler arasında hızlı gezinme
 -Bölümler
 -Şifre İşlemleri
 -Çıkış
+
+
 ![image](https://user-images.githubusercontent.com/46397935/202050780-ba10ed44-eeec-427e-8e68-15ad2581af2d.png)
 
 
