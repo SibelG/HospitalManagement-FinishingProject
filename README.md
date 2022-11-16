@@ -33,9 +33,7 @@ hedefler arasında hızlı gezinme
 -Bölümler
 -Şifre İşlemleri
 -Çıkış
-
-![WhatsApp Image 2022-06-02 at 10 21 07](https://user-images.githubusercontent.com/46397935/171579005-1256c29e-ce03-46bd-bc3e-fbfb1885d231.jpeg)
-
+![image](https://user-images.githubusercontent.com/46397935/202050780-ba10ed44-eeec-427e-8e68-15ad2581af2d.png)
 
 
 ## Doctors Screen
